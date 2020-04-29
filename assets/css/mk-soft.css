@@ -18,7 +18,7 @@
 
 /* TRABALHANDO COM CARD */
 .mk-card {
-    background-image: linear-gradient(87deg, #f57f17 0, #ff9100c4 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e7 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
     border-radius: 0px !important;
@@ -60,8 +60,7 @@
 /* footer-area */
 
 .footer-area {
-    background-image: linear-gradient(87deg, #000000f1 0, #000000d3 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-image: linear-gradient(87deg, #000000f1 0, #000000ea 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
-    font-weight: bold;
 }
