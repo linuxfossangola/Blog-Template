@@ -3,6 +3,22 @@
     font-weight: 100 !important;
     font-family: arial !important;
 }
+.gradient-color, 
+.single-stories-carousel:hover h6 a, 
+.single-post-carousel:hover 
+.post-details h2 a, 
+.single-post-item:hover 
+.post-details h4 a, 
+.popular-posts-widget .single-popular-post:hover h6 a {
+    background: -webkit-linear-gradient(90deg, #ff9100c4 0%, #ff9100c4 100%);
+    background: -moz-linear-gradient(90deg, #f57f17 0%, #ff9100c4 100%);
+    background: -o-linear-gradient(90deg, #f57f17 0%, #ff9100c4 100%);
+    background: -ms-linear-gradient(90deg, #f57f17 0%, #ff9100c4 100%);
+    /* background: linear-gradient(90deg, #7c32ff 0%, #c738d8 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ============================================ */
 
 /* TRABALHANDO COM CARD */
 .mk-card {
