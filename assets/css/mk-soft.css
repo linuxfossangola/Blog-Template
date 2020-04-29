@@ -42,12 +42,12 @@
 
 /* CARD */
 .mk-section-card .card-mk {
-    transition: all 1s ease;
+    transition: .2s;
     border: 1px solid #ECEEF1;
 }
 .mk-section-card .card-mk:hover {
     cursor: pointer;
-    transition: all 1s ease;
+    transition: .2s;
     transform: scale(1.026);
     overflow: hidden;
     background: #ffffff;
