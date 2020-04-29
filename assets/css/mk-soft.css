@@ -62,8 +62,8 @@
     width: 380;
     border-radius: 0px !important;
 }
-.mk-section-card .card-body h2 {
-    margin-top: 10px !important;
+.mk-section-card .card-body h4 {
+    margin-top: 15px !important;
     font-weight: bold;
 }
 /* FOOTER */
@@ -78,7 +78,15 @@
 }
 /* ====================================== parceiros ====================================== */
 .parceiros {
-    height: 300px;
-    background-position: center;
-    background-image:  linear-gradient(87deg, #f57f17a2 0, #ff9100c2 100%) , url(../img/ilustracao/parceiros-1.jpg) !important;
+    height: 150px;
+    background: #F5F6FA !important;
+}
+.customers {
+    margin-top: 40px !important;
+}
+.customers img {
+    width: 100px !important;
+}
+.owl-controls {
+    display: none !important;
 }
