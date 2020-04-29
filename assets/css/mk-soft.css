@@ -76,3 +76,9 @@
 .page-item.active .page-link, .blog-pagination .page-link:hover, .single-footer-widget .sub-btn  {
     background:  linear-gradient(87deg, #f57f17 0, #ff9100e0 100%)  !important;
 }
+/* ====================================== parceiros ====================================== */
+.parceiros {
+    height: 300px;
+    background-position: center;
+    background-image:  linear-gradient(87deg, #f57f17a2 0, #ff9100c2 100%) , url(../img/ilustracao/parceiros-1.jpg) !important;
+}
