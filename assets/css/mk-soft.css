@@ -55,3 +55,13 @@
     margin-top: 15px !important;
     font-weight: bold;
 }
+
+
+/* footer-area */
+
+.footer-area {
+    background-image: linear-gradient(87deg, #000000f1 0, #000000d3 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-size: 100%  !important;
+    background-position: center;
+    font-weight: bold;
+}
