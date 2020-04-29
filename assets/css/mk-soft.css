@@ -66,11 +66,13 @@
     margin-top: 10px !important;
     font-weight: bold;
 }
-
 /* FOOTER */
-
 .footer-area {
     background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
+}
+/* PAGINAÇÃO  */
+.page-item.active .page-link, .blog-pagination .page-link:hover, .single-footer-widget .sub-btn  {
+    background:  linear-gradient(87deg, #f57f17 0, #ff9100e0 100%)  !important;
 }
