@@ -33,6 +33,9 @@
     font-weight: bold;
 }
 /* BACKGROUND */
+.bg-padrao {
+    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
+}
 .bg-mk {
    background: #F5F6FA !important;
 }
