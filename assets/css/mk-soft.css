@@ -18,20 +18,19 @@
 
 /* TRABALHANDO COM CARD */
 .mk-card {
-    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e7 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
     border-radius: 0px !important;
     margin-top: -1px !important;
     color: white !important;
-   
-}
-.mk-card h2, 
-.mk-card h3 {
-    font-weight: bold !important; 
 }
 .mk-card img {
     width:50% !important;
+}
+.mk-card h2 , 
+.mk-card h3 {
+    font-weight: bold;
 }
 /* BACKGROUND */
 .bg-mk {
@@ -43,12 +42,16 @@
 
 /* CARD */
 .mk-section-card .card-mk {
-    transition: all 2s ease;
+    transition: all 1s ease;
     border: 1px solid #ECEEF1;
 }
 .mk-section-card .card-mk:hover {
     cursor: pointer;
-    transition: all 2s ease;
+    transition: all 1s ease;
+    transform: scale(1.026);
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.075);
 }
 .mk-section-card img {
     margin-top: 15px !important;
@@ -57,13 +60,14 @@
     border-radius: 0px !important;
 }
 .mk-section-card .card-body h2 {
-    margin-top: 15px !important;
+    margin-top: 10px !important;
     font-weight: bold;
 }
 
-/* footer-area */
+/* FOOTER */
+
 .footer-area {
-    background-image: linear-gradient(87deg, #000000f1 0, #000000ea 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
 }
