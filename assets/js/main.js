@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
 	'use strict';
 
-	$('.toggle_icon').on('click', function() {
+	$('.toggle_icon').on('click', function () {
 		$('body').toggleClass('open');
 	});
 
@@ -11,11 +11,11 @@ $(document).ready(function() {
 
 	// Search Toggle
 	$('#search_input_box').hide();
-	$('#search').on('click', function() {
+	$('#search').on('click', function () {
 		$('#search_input_box').slideToggle('slow');
 		$('#search_input').focus();
 	});
-	$('#close_search').on('click', function() {
+	$('#close_search').on('click', function () {
 		$('#search_input_box').slideUp('slow');
 	});
 
@@ -50,19 +50,19 @@ $(document).ready(function() {
 		$('body').append('<div id="mobile-body-overly"></div>');
 		$('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
 
-		$(document).on('click', '.menu-has-children i', function(e) {
+		$(document).on('click', '.menu-has-children i', function (e) {
 			$(this).next().toggleClass('menu-item-active');
 			$(this).nextAll('ul').eq(0).slideToggle();
 			$(this).toggleClass('lnr-chevron-up lnr-chevron-down');
 		});
 
-		$(document).on('click', '#mobile-nav-toggle', function(e) {
+		$(document).on('click', '#mobile-nav-toggle', function (e) {
 			$('body').toggleClass('mobile-nav-active');
 			$('#mobile-nav-toggle i').toggleClass('lnr-cross lnr-menu');
 			$('#mobile-body-overly').toggle();
 		});
 
-		$(document).click(function(e) {
+		$(document).click(function (e) {
 			var container = $('#mobile-nav, #mobile-nav-toggle');
 			if (!container.is(e.target) && container.has(e.target).length === 0) {
 				if ($('body').hasClass('mobile-nav-active')) {
@@ -77,7 +77,7 @@ $(document).ready(function() {
 	}
 
 	// Smooth scroll for the menu and links with .scrollto classes
-	$('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+	$('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
 		if (
 			location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
 			location.hostname == this.hostname
@@ -117,10 +117,10 @@ $(document).ready(function() {
 		}
 	});
 
-	$(document).ready(function() {
+	$(document).ready(function () {
 		$('html, body').hide();
 		if (window.location.hash) {
-			setTimeout(function() {
+			setTimeout(function () {
 				$('html, body').scrollTop(0).show();
 				$('html, body').animate(
 					{
@@ -135,7 +135,7 @@ $(document).ready(function() {
 	});
 
 	// Header scroll class
-	$(window).scroll(function() {
+	$(window).scroll(function () {
 		if ($(this).scrollTop() > 100) {
 			$('#header').addClass('header-scrolled');
 		} else {
@@ -150,6 +150,9 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
+		autoplay: true,
+		autoplayTimeout: 2000,
+		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1
@@ -182,6 +185,9 @@ $(document).ready(function() {
 		margin: 0,
 		dots: false,
 		nav: false,
+		autoplay: true,
+		autoplayTimeout: 2000,
+		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1
@@ -224,66 +230,66 @@ $(document).ready(function() {
 					{
 						featureType: 'water',
 						elementType: 'geometry',
-						stylers: [ { color: '#e9e9e9' }, { lightness: 17 } ]
+						stylers: [{ color: '#e9e9e9' }, { lightness: 17 }]
 					},
 					{
 						featureType: 'landscape',
 						elementType: 'geometry',
-						stylers: [ { color: '#f5f5f5' }, { lightness: 20 } ]
+						stylers: [{ color: '#f5f5f5' }, { lightness: 20 }]
 					},
 					{
 						featureType: 'road.highway',
 						elementType: 'geometry.fill',
-						stylers: [ { color: '#ffffff' }, { lightness: 17 } ]
+						stylers: [{ color: '#ffffff' }, { lightness: 17 }]
 					},
 					{
 						featureType: 'road.highway',
 						elementType: 'geometry.stroke',
-						stylers: [ { color: '#ffffff' }, { lightness: 29 }, { weight: 0.2 } ]
+						stylers: [{ color: '#ffffff' }, { lightness: 29 }, { weight: 0.2 }]
 					},
 					{
 						featureType: 'road.arterial',
 						elementType: 'geometry',
-						stylers: [ { color: '#ffffff' }, { lightness: 18 } ]
+						stylers: [{ color: '#ffffff' }, { lightness: 18 }]
 					},
 					{
 						featureType: 'road.local',
 						elementType: 'geometry',
-						stylers: [ { color: '#ffffff' }, { lightness: 16 } ]
+						stylers: [{ color: '#ffffff' }, { lightness: 16 }]
 					},
 					{
 						featureType: 'poi',
 						elementType: 'geometry',
-						stylers: [ { color: '#f5f5f5' }, { lightness: 21 } ]
+						stylers: [{ color: '#f5f5f5' }, { lightness: 21 }]
 					},
 					{
 						featureType: 'poi.park',
 						elementType: 'geometry',
-						stylers: [ { color: '#dedede' }, { lightness: 21 } ]
+						stylers: [{ color: '#dedede' }, { lightness: 21 }]
 					},
 					{
 						elementType: 'labels.text.stroke',
-						stylers: [ { visibility: 'on' }, { color: '#ffffff' }, { lightness: 16 } ]
+						stylers: [{ visibility: 'on' }, { color: '#ffffff' }, { lightness: 16 }]
 					},
 					{
 						elementType: 'labels.text.fill',
-						stylers: [ { saturation: 36 }, { color: '#333333' }, { lightness: 40 } ]
+						stylers: [{ saturation: 36 }, { color: '#333333' }, { lightness: 40 }]
 					},
-					{ elementType: 'labels.icon', stylers: [ { visibility: 'off' } ] },
+					{ elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
 					{
 						featureType: 'transit',
 						elementType: 'geometry',
-						stylers: [ { color: '#f2f2f2' }, { lightness: 19 } ]
+						stylers: [{ color: '#f2f2f2' }, { lightness: 19 }]
 					},
 					{
 						featureType: 'administrative',
 						elementType: 'geometry.fill',
-						stylers: [ { color: '#fefefe' }, { lightness: 20 } ]
+						stylers: [{ color: '#fefefe' }, { lightness: 20 }]
 					},
 					{
 						featureType: 'administrative',
 						elementType: 'geometry.stroke',
-						stylers: [ { color: '#fefefe' }, { lightness: 17 }, { weight: 1.2 } ]
+						stylers: [{ color: '#fefefe' }, { lightness: 17 }, { weight: 1.2 }]
 					}
 				]
 			};
@@ -304,7 +310,7 @@ $(document).ready(function() {
 		}
 	}
 
-	$(document).ready(function() {
+	$(document).ready(function () {
 		$('#mc_embed_signup').find('form').ajaxChimp();
 	});
 });
