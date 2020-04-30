@@ -33,15 +33,6 @@
     font-weight: bold;
 }
 /* BACKGROUND */
-.bg-padrao {
-    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
-}
-.bg-mk {
-   background: #F5F6FA !important;
-}
-.bg-mk a {
-    color: black !important;
-}
 
 /* CARD */
 .mk-section-card .card-mk {
@@ -130,8 +121,6 @@
     }
 }
 
-
-
 /* ============================= PÁGINA COMO FAZER =================================== */
 .banner_como_fazer {
     height: 500px;
@@ -163,4 +152,27 @@
     color: #999999;
     background: #ffffff;
     padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Minhas Coisas */
+.bl-mk {
+    border-left: 4px solid #f57f17 !important;
+}
+.bg-padrao {
+    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
+}
+.bg-mk {
+   background: #F5F6FA !important;
+}
+.bg-mk a {
+    color: black !important;
 }
