@@ -55,6 +55,8 @@
     overflow: hidden;
     background: #ffffff;
     box-shadow: 0 0 40px 0 rgba(0,0,0,.075);
+    border: 0px !important;
+    z-index: 1;
 }
 .mk-section-card img {
     margin-top: 15px !important;
@@ -89,4 +91,25 @@
 }
 .owl-controls {
     display: none !important;
+}
+
+
+
+
+/* ================================= PÁGINA DE DICAS ================================= */
+.publicidade {
+    height: 200px;
+    border: 1px solid #bababb !important;
+    /* background: #F5F6FA !important; */
+}
+.publicidade h3 {
+    font-weight: bold !important;
+}
+.margem_topo {
+    height: 100px;
+    margin-top: -190px !important;
+}
+.banner-area {
+    height: 500px !important;
+    background-image:  linear-gradient(87deg, #f57f17b4 0, #ff9100a1 100%), url(../img/ilustracao/fundo-principal.jpg)  !important;
 }
