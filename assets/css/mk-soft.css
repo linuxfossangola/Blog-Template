@@ -1,4 +1,7 @@
 /* RESET */
+* {
+    font-family: Centry Gothic !important;
+}
 .gradient-color, 
 .single-stories-carousel:hover h6 a, 
 .single-post-carousel:hover 
