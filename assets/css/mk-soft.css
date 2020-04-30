@@ -1,7 +1,11 @@
 /* RESET */
-* {
-    font-family: Centry Gothic !important;
-}
+
+/* @font-face {
+font-family: "MyriadPro-Light";
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/GoboldLight.ttf);
+} */
 .gradient-color, 
 .single-stories-carousel:hover h6 a, 
 .single-post-carousel:hover 
@@ -18,7 +22,6 @@
     -webkit-text-fill-color: transparent;
 }
 /* ============================================ */
-
 /* TRABALHANDO COM CARD */
 .mk-card {
     background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
@@ -83,6 +86,7 @@
 .parceiros {
     height: 150px;
     background: #F5F6FA !important;
+    margin-top: -100px;
 }
 .customers {
     margin-top: 40px !important;
