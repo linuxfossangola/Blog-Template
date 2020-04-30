@@ -113,3 +113,13 @@
     height: 500px !important;
     background-image:  linear-gradient(87deg, #f57f17b4 0, #ff9100a1 100%), url(../img/ilustracao/fundo-principal.jpg)  !important;
 }
+
+@media(max-width: 700px) {
+    .margem_topo {
+        height: auto !important;
+        margin-top: 0px !important;
+    }
+    .publicidade {
+        height: auto !important;
+    }
+}
