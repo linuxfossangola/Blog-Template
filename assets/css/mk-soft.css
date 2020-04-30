@@ -76,12 +76,13 @@ src: url(../fonts/GoboldLight.ttf);
     background-repeat: no-repeat;
 }
 .card-img-top .legend {
-    background: #f57f17 !important;
+    background: #f57f17 ;
     color: white !important;
     position: relative;
-    padding: 5px;
-    width: 30% !important;
+    padding: 0 10px;
+    width: 32% !important;
     top: 120px !important;
+    font-size: 12px;
     /* left: 10px; */
 }
 .mk-section-card .card-body h4 {
@@ -174,18 +175,18 @@ src: url(../fonts/GoboldLight.ttf);
 
 
 
-
-
-
-
-
-
 /* Minhas Coisas */
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
 }
 .bg-padrao {
     background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
+}
+.bg-azul {
+    background: linear-gradient(87deg, #1791f5 0, #0e52e4e0 100%) !important
+}
+.bg-devOps {
+    background: linear-gradient(87deg, #AD5D00 0, #ad5c00e1 100%) !important
 }
 .bg-mk {
     background: #F5F6FA !important;
@@ -196,7 +197,6 @@ src: url(../fonts/GoboldLight.ttf);
 .bg-mk a {
     color: black !important;
 }
-
 .legend-carousel {
     background: #f57f17 !important;
     padding: 5px;
