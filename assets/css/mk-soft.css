@@ -21,7 +21,21 @@ src: url(../fonts/GoboldLight.ttf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-/* ============================================ */
+
+
+/* INPUT DE PESQUISA */
+
+.single-footer-widget input {
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    height: 41px;
+    color: #999999;
+    background: #000000;
+    padding-left: 20px;
+}
 /* TRABALHANDO COM CARD */
 .mk-card {
     background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
@@ -38,7 +52,6 @@ src: url(../fonts/GoboldLight.ttf);
 .mk-card h3 {
     font-weight: bold;
 }
-/* BACKGROUND */
 
 /* CARD */
 .mk-section-card .card-mk {
@@ -67,8 +80,9 @@ src: url(../fonts/GoboldLight.ttf);
     color: white !important;
     position: relative;
     padding: 5px;
-    width: 40% !important;
-    top: 40px !important;
+    width: 30% !important;
+    top: 120px !important;
+    /* left: 10px; */
 }
 .mk-section-card .card-body h4 {
     margin-top: 15px !important;
@@ -81,6 +95,7 @@ src: url(../fonts/GoboldLight.ttf);
 .mk-section-card .card-mk-autor strong {
     color: black !important;
 }
+
 /* FOOTER */
 .footer-area {
     background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
@@ -106,8 +121,6 @@ src: url(../fonts/GoboldLight.ttf);
 .owl-controls {
     display: none !important;
 }
-
-
 /* ================================= PÁGINA DE DICAS ================================= */
 .publicidade {
     height: 200px;
@@ -126,7 +139,6 @@ src: url(../fonts/GoboldLight.ttf);
     background-position-y: 0rem;
     background-image:  linear-gradient(87deg, #000000b4 0, #000000a1 100%), url(../img/ilustracao/fundo.png)  !important;
 }
-
 @media(max-width: 700px) {
     .margem_topo {
         height: auto !important;
@@ -158,17 +170,6 @@ src: url(../fonts/GoboldLight.ttf);
     margin-top: 30px !important;
     text-align: justify;
 }
-.single-footer-widget input {
-    width: 100%;
-    border: 1px solid #ffffff;
-    font-size: 13px;
-    line-height: 30px;
-    padding-right: 40px;
-    height: 40px;
-    color: #999999;
-    background: #ffffff;
-    padding-left: 20px;
-}
 
 
 
@@ -187,8 +188,16 @@ src: url(../fonts/GoboldLight.ttf);
     background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
 }
 .bg-mk {
-   background: #F5F6FA !important;
+    background: #F5F6FA !important;
+}
+.bg-mk-1 {
+    background: #F5F6FA !important;
 }
 .bg-mk a {
     color: black !important;
+}
+
+.legend-carousel {
+    background: #f57f17 !important;
+    padding: 5px;
 }
