@@ -68,6 +68,13 @@
     margin-top: 15px !important;
     font-weight: bold;
 }
+.mk-section-card .card-mk-autor {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mk-section-card .card-mk-autor strong {
+    color: black !important;
+}
 /* FOOTER */
 .footer-area {
     background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
