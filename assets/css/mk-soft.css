@@ -55,11 +55,20 @@ src: url(../fonts/GoboldLight.ttf);
     border: 0px !important;
     z-index: 1;
 }
-.mk-section-card img {
+.mk-section-card .card-img-top {
     margin-top: 15px !important;
-    height: 220;
-    width: 380;
-    border-radius: 0px !important;
+    height: 220px !important;
+    width: 380 !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card-img-top .legend {
+    background: #f57f17 !important;
+    color: white !important;
+    position: relative;
+    padding: 5px;
+    width: 40% !important;
+    top: 40px !important;
 }
 .mk-section-card .card-body h4 {
     margin-top: 15px !important;
