@@ -69,7 +69,6 @@ src: url(../fonts/GoboldLight.ttf);
     z-index: 1;
 }
 .mk-section-card .card-img-top {
-    margin-top: 15px !important;
     height: 220px !important;
     width: 380 !important;
     background-size: 100%;
@@ -79,19 +78,17 @@ src: url(../fonts/GoboldLight.ttf);
     background: #f57f17 ;
     color: white !important;
     position: relative;
-    padding: 0 10px;
-    width: 32% !important;
+    padding: 5px 10px;
+    /* width: 32% !important; */
     top: 120px !important;
     font-size: 12px;
     /* left: 10px; */
 }
-.mk-section-card .card-body h4 {
-    margin-top: 15px !important;
-    font-weight: bold;
+.card-descripiton {
+    margin-top: -40px;
 }
-.mk-section-card .card-mk-autor {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.mk-section-card .card-body h4 {
+    font-weight: bold;
 }
 .mk-section-card .card-mk-autor strong {
     color: black !important;
@@ -180,14 +177,21 @@ src: url(../fonts/GoboldLight.ttf);
     border-left: 4px solid #f57f17 !important;
 }
 .bg-padrao {
-    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) !important
+    background:#f57f17;
 }
-.bg-azul {
-    background: linear-gradient(87deg, #1791f5 0, #0e52e4e0 100%) !important
+
+.bg-dicas {
+    background: #c40909 !important;
 }
-.bg-devOps {
-    background: linear-gradient(87deg, #AD5D00 0, #ad5c00e1 100%) !important
+
+.bg-como_fazer {
+    background: #015091 !important;
 }
+
+
+
+
+
 .bg-mk {
     background: #F5F6FA !important;
 }
@@ -198,6 +202,17 @@ src: url(../fonts/GoboldLight.ttf);
     color: black !important;
 }
 .legend-carousel {
-    background: #f57f17 !important;
+    background: #f57f17;
     padding: 5px;
+}
+
+.single-widget {
+    border: 1px solid #eee;
+    padding: 30px;
+    margin-bottom: 0px;
+    background: #1e1c27;
+}
+.protfolio-widget .social-links li a  {
+    background: #f57f17 !important;
+    color: white !important;
 }
