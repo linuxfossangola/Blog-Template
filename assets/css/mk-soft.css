@@ -82,11 +82,11 @@ src: url(../fonts/GoboldLight.ttf);
     background: #f57f17 ;
     color: white !important;
     position: relative;
-    padding: 5px 10px;
-    /* width: 32% !important; */
+    padding: 0px;
     top: 120px !important;
-    font-size: 12px;
+    font-size: 14px;
     /* left: 10px; */
+    text-align: center;
 }
 .card-descripiton {
     margin-top: -40px;
@@ -130,7 +130,26 @@ src: url(../fonts/GoboldLight.ttf);
     /* background: #F5F6FA !important; */
 }
 .publicidade h3 {
-    font-weight: bold !important;
+    color: #5C5C5C !important;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    line-height: 1.4em;
+    font-weight: 300;
+}
+.publicidade .publicidade-right {
+    background: #3E3D3D !important;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 40px !important;
+}
+.publicidade .publicidade-right a {
+    text-align: center !important;
+    margin: 10px auto !important;
+}
+.publicidade i {
+    font-size: 40px;
+    color: white !important;
 }
 .margem_topo {
     height: 100px;
@@ -150,7 +169,6 @@ src: url(../fonts/GoboldLight.ttf);
         height: auto !important;
     }
 }
-
 /* ============================= PÁGINA COMO FAZER =================================== */
 .banner_como_fazer {
     height: 500px;
@@ -174,25 +192,19 @@ src: url(../fonts/GoboldLight.ttf);
 }
 
 
-
-
-/* Minhas Coisas */
+/*======================================= Minhas Coisas =======================================*/
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
 }
-
 .bg-padrao {
     background:#f57f17;
 }
 .bg-dicas {
     background: #c40909 !important;
 }
-
 .bg-como_fazer {
     background: #015091 !important;
 }
-
-
 .bg-mk {
     background: #F5F6FA !important;
 }
@@ -204,9 +216,9 @@ src: url(../fonts/GoboldLight.ttf);
 }
 .legend-carousel {
     background: #f57f17;
-    padding: 5px;
+    padding: 1px;
+    text-align: center;
 }
-
 .single-widget {
     border: 1px solid #eee;
     padding: 30px;
