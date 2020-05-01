@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="assets/img/fav.png">
+	<link rel="shortcut icon" href="assets/img/icons/logo.png">
 	<!-- Author Meta -->
 	<meta name="author" content="codepixer">
 	<!-- Meta Description -->
@@ -15,9 +15,10 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Ruft Blog</title>
+	<title>Linux FOSS Angola</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet">
+	<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet"> -->
 	<!--
 			CSS
 			============================================= -->
@@ -29,6 +30,9 @@
 	<link rel="stylesheet" href="assets/css/animate.min.css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- My Stylid -->
+	<link rel="stylesheet" href="assets/css/mk-soft.css">
 </head>
 
 <body>
@@ -36,14 +40,9 @@
 	<section class="header-top">
 		<div class="container box_1170">
 			<div class="row align-items-center justify-content-between">
-				<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 text-center">
 					<a href="index.html" class="logo">
-						<img src="assets/img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 search-trigger">
-					<a href="#" class="search">
-						<i class="lnr lnr-magnifier" id="search"></i></a>
+						<img src="assets/img/icons/logo.png" alt="" style="width: 10%;">
 					</a>
 				</div>
 			</div>
@@ -52,37 +51,18 @@
 	<!--================ End header top Area =================-->
 
 	<!-- Start header Area -->
-	<header id="header">
+	<header id="header" class="bg-mk">
 		<div class="container box_1170 main-menu">
 			<div class="row align-items-center justify-content-center d-flex">
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class="menu-active"><a href="index.html">Home</a></li>
-						<li><a href="category.html">Category</a></li>
-						<li><a href="archive.html">Archive</a></li>
-						<li class="menu-has-children"><a href="">Pages</a>
-							<ul>
-								<li><a href="elements.html">Elements</a></li>
-							</ul>
-						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-details.html">Blog Details</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="dicas.html">Dicas</a></li>
+						<li><a href="como_fazer.html">Como fazer</a></li>
+						<li><a href="contact.html">Resolução Problema</a></li>
+						<li><a href="contactos.html">Contactos</a></li>
 					</ul>
 				</nav>
-			</div>
-		</div>
-
-		<div class="search_input" id="search_input_box">
-			<div class="container box_1170">
-				<form class="d-flex justify-content-between">
-					<input type="text" class="form-control" id="search_input" placeholder="Search Here">
-					<button type="submit" class="btn"></button>
-					<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-				</form>
 			</div>
 		</div>
 	</header>
@@ -96,10 +76,8 @@
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
 						Post Archive
+						934 593 332
 					</h1>
-					<p class="text-white link-nav"><a href="index.html">Home </a> <span
-							class="lnr lnr-arrow-right"></span> <a href="category.html">
-							Archive</a></p>
 				</div>
 			</div>
 		</div>
@@ -176,22 +154,23 @@
 	</section>
 	<!-- End contact-page Area -->
 
+
 	<!-- start footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container box_1170">
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget">
-						<h6 class="footer_title">About Us</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore dolore
+						<h6 class="footer_title">Sobre nós</h6>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore dolore
 							magna aliqua.</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-6">
 					<div class="single-footer-widget">
 						<h6 class="footer_title">Newsletter</h6>
-						<p>Stay updated with our latest trends</p>
+						<p>Mantenha-se atualizado com as nossas últimas publicações</p>
 						<div id="mc_embed_signup">
 							<form target="_blank"
 								action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
@@ -199,7 +178,8 @@
 								<div class="input-group d-flex flex-row">
 									<input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''"
 										onblur="this.placeholder = 'Email Address '" required="" type="email">
-									<button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
+									<button class="btn sub-btn bg-padrao"><span
+											class="lnr lnr-arrow-right"></span></button>
 								</div>
 								<div class="mt-10 info"></div>
 							</form>
@@ -208,40 +188,34 @@
 				</div>
 				<div class="col-lg-4 col-md-6 col-sm-6">
 					<div class="single-footer-widget instafeed">
-						<h6 class="footer_title">Instagram Feed</h6>
+						<h6 class="footer_title">Doação</h6>
 						<ul class="list instafeed d-flex flex-wrap">
-							<li><img src="assets/img/i1.jpg" alt=""></li>
-							<li><img src="assets/img/i2.jpg" alt=""></li>
-							<li><img src="assets/img/i3.jpg" alt=""></li>
-							<li><img src="assets/img/i4.jpg" alt=""></li>
-							<li><img src="assets/img/i5.jpg" alt=""></li>
-							<li><img src="assets/img/i6.jpg" alt=""></li>
-							<li><img src="assets/img/i7.jpg" alt=""></li>
-							<li><img src="assets/img/i8.jpg" alt=""></li>
+							<div class="col-lg-12 mk-card p-4">
+								<h4 class="text-white">Ajude-nos a manter o site</h4>
+								<h4 class="text-white">Faça a sua doação</h4>
+							</div>
 						</ul>
 					</div>
 				</div>
 				<div class="col-lg-2 col-md-6 col-sm-6">
 					<div class="single-footer-widget f_social_wd">
-						<h6 class="footer_title">Follow Us</h6>
-						<p>Let us be social</p>
+						<h6 class="footer_title">Segue-nos</h6>
+						<p>Sejamos sociais</p>
 						<div class="f_social">
 							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+							<a href="#"><i class="fab fa-linkedin"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-telegram-plane"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row footer-bottom d-flex justify-content-between align-items-center">
 				<p class="col-lg-12 footer-text text-center">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					Copyright &copy;
-					<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
-					made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-						target="_blank">Colorlib</a>
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados Linux foss
+					Angola</a>
 				</p>
 			</div>
 		</div>

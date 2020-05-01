@@ -1,11 +1,4 @@
 /* RESET */
-
-/* @font-face {
-font-family: "MyriadPro-Light";
-font-style: normal;
-font-weight: normal;
-src: url(../fonts/GoboldLight.ttf);
-} */
 .gradient-color, 
 .single-stories-carousel:hover h6 a, 
 .single-post-carousel:hover 
@@ -22,9 +15,12 @@ src: url(../fonts/GoboldLight.ttf);
     -webkit-text-fill-color: transparent;
 }
 
+.nav-menu a {
+    color: red !important;
+    font-weight: normal !important;
+}
 
 /* INPUT DE PESQUISA */
-
 .bg-padrao input {
     background: #F5F6FA !important;
 }
@@ -56,7 +52,6 @@ src: url(../fonts/GoboldLight.ttf);
 .mk-card h3 {
     font-weight: bold;
 }
-
 /* CARD */
 .mk-section-card .card-mk {
     transition: .2s;
