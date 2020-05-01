@@ -25,6 +25,10 @@ src: url(../fonts/GoboldLight.ttf);
 
 /* INPUT DE PESQUISA */
 
+.bg-padrao input {
+    background: #F5F6FA !important;
+}
+
 .single-footer-widget input {
     width: 100%;
     border: 1px solid #ffffff;
@@ -176,10 +180,10 @@ src: url(../fonts/GoboldLight.ttf);
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
 }
+
 .bg-padrao {
     background:#f57f17;
 }
-
 .bg-dicas {
     background: #c40909 !important;
 }
@@ -187,9 +191,6 @@ src: url(../fonts/GoboldLight.ttf);
 .bg-como_fazer {
     background: #015091 !important;
 }
-
-
-
 
 
 .bg-mk {
