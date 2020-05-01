@@ -167,7 +167,7 @@ $(document).ready(function () {
 				items: 2
 			},
 			992: {
-				items: 3
+				items: 2
 			},
 			1200: {
 				items: 4
@@ -205,7 +205,7 @@ $(document).ready(function () {
 				items: 2
 			},
 			1380: {
-				items: 3
+				items: 2
 			}
 		}
 	});

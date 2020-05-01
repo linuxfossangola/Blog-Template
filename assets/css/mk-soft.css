@@ -212,6 +212,9 @@ src: url(../fonts/GoboldLight.ttf);
     margin-bottom: 0px;
     background: #1e1c27;
 }
+.social-links {
+    margin-top: 80px;
+}
 .protfolio-widget .social-links li a  {
     background: #f57f17 !important;
     color: white !important;
