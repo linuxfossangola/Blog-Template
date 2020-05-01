@@ -187,6 +187,24 @@
 }
 
 
+/* PÁGINA DE CONTACTOS */
+.banner-contactos {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:  linear-gradient(87deg, #f57f17 0, #ff910096 100%) , url(https://image.freepik.com/free-photo/african-american-business-woman-talking-phone-cafe_1303-9875.jpg)  !important;
+}
+.contact-page-area .single-contact-address .lnr {
+    color: #f57f17 !important;
+}
+.genric-btn.primary {
+    background: #f57f17 !important;
+}
+.genric-btn.primary:hover {
+    color: white !important;
+}
+
+
 /*======================================= Minhas Coisas =======================================*/
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
