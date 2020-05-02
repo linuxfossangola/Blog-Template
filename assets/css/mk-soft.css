@@ -19,7 +19,6 @@ html {
 }
 
 .nav-menu a {
-    color: red !important;
     font-weight: normal !important;
 }
 
@@ -382,4 +381,9 @@ html {
     background: #7B33FF;
     color: white;
     padding: 5px 5px;
+}
+
+.btn-primary {
+    color: white !important;
+    border-radius: 0px !important;
 }
