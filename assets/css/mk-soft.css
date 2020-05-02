@@ -186,6 +186,72 @@
 }
 
 
+/* PAGINA SOBRE LINUX FOSS ANGOLA */
+
+/* Banner Principal */
+.banner-sobre {
+    height: 350px;
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: 100%;
+    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)  !important;
+}
+/* Banner Sobre Linux Foss Angola */
+.sobre-banner-linux {
+    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://segredosdomundo.r7.com/wp-content/uploads/2019/11/pinguim-tudo-o-que-voce-precisa-saber-sobre-esse-animal-7.jpg); 
+    background-size: 100% ; 
+    height: 350px; 
+    background-position: center;
+     background-attachment: fixed;
+}
+.sobre-linux .card {
+    background: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 0px !important;
+    color: white !important;
+}
+.sobre-linux h4 {
+    font-size: 24px;
+}
+.sobre-linux i {
+    margin-bottom: 10px !important;
+    font-size: 20px !important;
+    color: white !important;
+}
+.sobre-linux span {
+    font-size: 16px;
+}
+
+
+/* Comunidade */
+.sobre-banner-comunidade {
+    height: 430px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:  linear-gradient(87deg, #000000dc 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)  !important;
+}
+
+.comunidade {
+    margin-top: 80px !important;
+}
+.comunidade .card {
+    border-radius: 0px !important;
+    text-align: center;
+}
+.comunidade i {
+    text-align: center;
+    font-size: 30px !important;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
 /*======================================= Minhas Coisas =======================================*/
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
