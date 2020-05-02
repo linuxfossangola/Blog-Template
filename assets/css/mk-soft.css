@@ -21,7 +21,6 @@ html {
 .nav-menu a {
     font-weight: normal !important;
 }
-
 /* INPUT DE PESQUISA */
 .bg-padrao input {
     background: #F5F6FA !important;
@@ -383,7 +382,23 @@ html {
     padding: 5px 5px;
 }
 
+.btn-padrao {
+    background: linear-gradient(87deg, #FFCE8B 0, #FA5B72 100%) !important;
+    border: 1px solid #FFCE8B !important;
+}
+.btn-entrar {
+    background: linear-gradient(87deg, #5F7CE9 0, #8E50B9 100%) !important;
+    border: 1px solid #5F7CE9 !important;
+}
 .btn-primary {
     color: white !important;
     border-radius: 0px !important;
+}
+
+
+
+
+
+.modal form input {
+    border-radius: none !important;
 }
