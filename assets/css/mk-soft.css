@@ -529,3 +529,27 @@ html {
 .cor-sinza {
     color: #B3B3B3;
 }
+
+
+.dropdown-menu .name {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1 1 auto;
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.dropdown-menu .desc{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1 1 auto;
+    font-size: .8706em;
+    font-weight: normal;
+    color: gray;
+    white-space: normal;
+ }
