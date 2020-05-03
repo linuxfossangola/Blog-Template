@@ -444,7 +444,8 @@
 
 
     <!-- Modal de Registo -->
-    <div class="modal fade registro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal fade registro" id="registro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="row">
@@ -452,7 +453,7 @@
                         <div class="col-lg-12 text-center mt-4">
                             <div class="mt-4 register-descricao">
                                 <img src="assets/img/icons/logo.png" class="col-lg-8 text-center" />
-                                <h4 class="text-white mt-4">Cadastra-se com</h4>
+                                <h4 class="text-white mt-2">Cadastra-se com</h4>
                             </div>
 
                             <div class="col-lg-12">
@@ -472,6 +473,7 @@
                             <div class="row">
                                 <div class="col-lg-12 ">
                                     <h3 class="text-center mt-4 mb-4">Sign in to your account</h3>
+                                    <hr>
                                     <div class="row mr-2">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -510,13 +512,36 @@
                                                 <input type="password" class="form-control" id="recipient-name">
                                             </div>
                                         </div>
+
+                                        <div class="col-lg-12">
+                                            <p class="text-justify">Ao clicares em Regista-te, aceitas os nossos <a
+                                                    href="">Termos</a>,
+                                                a nossa <a href="">Política de
+                                                    Dados </a> e a nossa Política de cookies. Poderás receber
+                                                notificações nossas
+                                                por SMS e podes cancelá-las a qualquer altura.</p>
+                                        </div>
+                                        <!-- <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Termos de serviço
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div> -->
                                     </div>
 
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
+                                    <div class="col-lg-7 text-center m-auto">
+                                        <div class="row">
+                                            <div class="form-group col-lg-6">
                                                 <input type="submit" class="form-control btn-primary btn-padrao"
-                                                    id="recipient-name" value="Entrar">
+                                                    id="recipient-name" value="Cadastrar-se">
+                                            </div>
+                                            <div class="form-group col-lg-6">
+                                                <a href="#login" data-toggle="modal"
+                                                    class="form-control btn-primary btn-entrar">Entrar</a>
                                             </div>
                                         </div>
                                     </div>
@@ -537,7 +562,7 @@
             <div class="modal-content">
                 <div class="row">
                     <div class="modal-body col-lg-6 modal-login">
-                        <div class="col-lg-12 text-center mt-4">
+                        <div class="col-lg-12 text-center mt-4 login-descricao">
                             <img src="assets/img/icons/logo.png" class="col-lg-8 text-center" />
 
                             <div class="col-lg-12 mt--3">
@@ -550,7 +575,6 @@
                                     </ul>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="modal-body col-lg-6">
@@ -584,8 +608,10 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <input type="submit" class="form-control btn-primary btn-padrao"
-                                                id="recipient-name" value="Entrar">
+                                            <!-- <input type="submit" class="form-control btn-primary btn-padrao"
+                                                id="recipient-name" value="Entrar"> -->
+                                            <a href="saudacoes.html"
+                                                class="form-control btn-primary btn-padrao text-center">Entrar</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-12 text-center mb-2">
@@ -593,7 +619,7 @@
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <a href="#" class="form-control btn-primary  text-center"
+                                            <a href="#" class="form-control btn-primary btn-entrar text-center"
                                                 data-toggle="modal" data-target=".registro"
                                                 id="modal_cadastro">Cadastrar</a>
                                         </div>
@@ -602,7 +628,6 @@
                                     <div class="col-lg-12 mt-4 text-center">
                                         <a href="#">Forgot Password ? </a>
                                     </div>
-
                                 </div>
                             </div>
                         </form>
@@ -700,13 +725,12 @@
 
 
     <script>
-        const cadastro = document.querySelector('#modal_cadastro');
-
-        const formularioLogin = document.querySelector('.form_login');
-
-        cadastro.addEventListener('click', () => {
-            $('.form_login').hide();
-            $('#modal_cadastro').show()
+        $(document).on('show.bs.modal', '.modal', function () {
+            var zIndex = 1040 + (10 * $('.modal:visible').length);
+            $(this).css('z-index', zIndex);
+            setTimeout(function () {
+                $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+            }, 0);
         });
     </script>
 </body>
