@@ -394,13 +394,31 @@ html {
 }
 .btn-primary {
     color: white !important;
+}
+.form-contactos .form-group input[type=submit] {
+
+}
+.form-contactos .form-group .form-control,
+.modal form .form-group input {
     border-radius: 0px !important;
+    border: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    background-color: #fff !important;
+}
+.modal form .form-group input[type=submit] {
+    border-radius: 4px !important;
 }
 
+.modal-login{
+    width: 100%;
+    background-size: 100% !important;
+    background-image: linear-gradient(87deg, #FFCE8B 0, #FA5B72 100%) !important;
+}
 
+.register-descricao {
+    margin-top: 80px !important;
+}
 
-
-
-.modal form input {
-    border-radius: none !important;
+.text-red {
+    color: red !important;
 }

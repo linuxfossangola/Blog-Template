@@ -448,57 +448,83 @@
         aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Criar Nova Conta</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form-area" id="myForm">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Email:</label>
-                                    <input type="text" class="form-control" id="recipient-name"
-                                        placeholder="Digite o seu email">
-                                </div>
+                <div class="row">
+                    <div class="modal-body col-lg-4 modal-login">
+                        <div class="col-lg-12 text-center mt-4">
+                            <div class="mt-4 register-descricao">
+                                <img src="assets/img/icons/logo.png" class="col-lg-8 text-center" />
+                                <h3 class="text-white mt-4">Cadastra-se com</h3>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Nome de Usuário:</label>
-                                    <input type="text" class="form-control" id="recipient-name"
-                                        placeholder="Digite o seu nome de usuário">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Nome:</label>
-                                    <input type="text" class="form-control" id="recipient-name"
-                                        placeholder="Digite o seu nome completo">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Nome:</label>
-                                    <input type="text" class="form-control" id="recipient-name"
-                                        placeholder="Digite o seu nome completo">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Nome:</label>
-                                    <input type="text" class="form-control" id="recipient-name"
-                                        placeholder="Digite o seu nome completo">
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
 
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary btn-padrao" data-dismiss=" modal">Criar Conta</button>
-                    <button type="button" class="btn btn-primary btn-entrar">Entrar</button>
+                            <div class="col-lg-12">
+                                <div class="protfolio-widget">
+                                    <ul class="social-links col-lg-12 text-center">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-body col-lg-8">
+                        <form class="form-area " id="myForm">
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    <h3 class="text-center mt-4 mb-4">Sign in to your account</h3>
+                                    <div class="row mr-2">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">E-mail</label>
+                                                <input type="email" class="form-control col-lg-12" id="recipient-name"
+                                                    placeholder="Digite o seu email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Nome de
+                                                    Usuário</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Digite o seu nome de usuário">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Nome de
+                                                    Usuário</label>
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Digite o seu nome de usuário">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Senha</label>
+                                                <input type="password" class="form-control" id="recipient-name"
+                                                    placeholder="Digite o seu nome de usuário">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Meu sistema
+                                                    operacional é <span class="text-red">*</span></label>
+                                                <input type="password" class="form-control" id="recipient-name">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="form-group">
+                                                <input type="submit" class="form-control btn-primary btn-padrao"
+                                                    id="recipient-name" value="Entrar">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -506,49 +532,72 @@
 
 
     <!-- Modal Login -->
-    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade " id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Entrar</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form-area" id="myForm">
-                        <div class="row">
-                            <div class="col-lg-8" style="border-right: 1px solid #c5c5c5;">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Email:</label>
-                                        <input type="text" class="form-control" id="recipient-name"
-                                            placeholder="Digite o seu email">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mt--4">
-                                    <div class="form-group">
-                                        <label for="recipient-name" class="col-form-label">Nome de Usuário:</label>
-                                        <input type="text" class="form-control" id="recipient-name"
-                                            placeholder="Digite o seu nome de usuário">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 mt-4">
-                                <button type="button" class="btn btn-primary col-lg-12 mt-4">
-                                    <i class=" fas fa-user"></i> Entrar</button>
-                                <button type="button"
-                                    class="btn btn-primary btn-padrao col-lg-12 mt-4">Cadastrar-se</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="row">
+                    <div class="modal-body col-lg-6 modal-login">
+                        <div class="col-lg-12 text-center mt-4">
+                            <img src="assets/img/icons/logo.png" class="col-lg-8 text-center" />
 
-                </div>
-                <div class="modal-footer float-left">
-                    <button type="button" class="btn btn-primary">
-                        <i class="fas fa-user"></i> Entrar</button>
-                    <button type="button" class="btn btn-primary btn-padrao">Cadastrar-se</button>
+                            <div class="col-lg-12 mt--4">
+                                <h3 class="text-white">Faça o seu login com </h3>
+                                <div class="protfolio-widget mt--4">
+                                    <ul class="social-links col-lg-12 text-center">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-body col-lg-6">
+                        <form class="form-area " id="myForm">
+                            <div class="row">
+                                <div class="col-lg-12  mt-4">
+                                    <div class="col-lg-12">
+                                        <h3 class="text-center">Entrar</h3>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Usuário</label>
+                                            <input type="text" class="form-control col-lg-12" id="recipient-name"
+                                                placeholder="e-mail ou nome de usuário">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">Senha</label>
+                                            <input type="password" class="form-control" id="recipient-name"
+                                                placeholder="Senha">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Remember Me
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input type="submit" class="form-control btn-primary btn-padrao"
+                                                id="recipient-name" value="Entrar">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 mt-4 text-center">
+                                        <a href="#">Forgot Password ?</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
