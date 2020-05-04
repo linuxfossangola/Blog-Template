@@ -373,12 +373,12 @@ html {
     font-size: 20px !important;
 }
 
-
-
-
-
-
-
+.topic-list {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
 
 
 

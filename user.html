@@ -92,7 +92,7 @@
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cog"></i> Preferências
                                 </a>
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="forum.html">
                                     <i class="fas fa-sign-out-alt"></i> Sair
                                 </a>
                             </div>
@@ -450,12 +450,89 @@
                     </div>
                 </div>
 
-
-
-
-
+                <!-- Tab Mensagens -->
                 <div class="tab-pane fade" id="mensagem" role="tabpanel" aria-labelledby="contact-tab">
-                    <h2>Mensagem</h2>
+                    <div class="row mt-2">
+                        <div class="col-lg-3">
+                            <ul class="nav nav-pills flex-column" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="entrada-tab" data-toggle="tab" href="#entrada"
+                                        role="tab" aria-controls="entrada" aria-selected="true">Caixa de entrada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="enviadas-tab" data-toggle="tab" href="#enviadas" role="tab"
+                                        aria-controls="enviadas" aria-selected="false">Enviadas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="arquivo-tab" data-toggle="tab" href="#arquivo" role="tab"
+                                        aria-controls="arquivo" aria-selected="false">Arquivo</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="entrada" role="tabpanel" aria-labelledby="entrada-tab">
+                                    <div class="row">
+                                        <div class="col-lg-12 alert-info">
+                                            <span>Nenhum tópico encontrado.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="enviadas" role="tabpanel" aria-labelledby="enviadas-tab">
+                                    <div class="row">
+                                        <div class="col-lg-12 alert-info">
+                                            <span>Nenhum tópico enviado</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="arquivo" role="tabpanel" aria-labelledby="arquivo-tab">
+                                    <div class="row topic-list p-2">
+                                        <div class="col-lg-12">
+                                            <ul class="row">
+                                                <li class="col-lg-4">
+                                                    Tópico
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    Respostas
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    Visualizações
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    Atividade
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row topic-list p-3">
+                                        <div class="col-lg-12">
+                                            <ul class="row">
+                                                <li class="col-lg-4">
+                                                    <a href="saudacoes.html">Saudações</a>
+                                                </li>
+                                                <li class="col-lg-2">
+
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    0
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    3
+                                                </li>
+                                                <li class="col-lg-2 text-center">
+                                                    1d
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="preferencia" role="tabpanel" aria-labelledby="contact-tab">
                     <h2>preferencia</h2>
