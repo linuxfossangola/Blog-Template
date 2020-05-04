@@ -1,6 +1,7 @@
 /* RESET */
 html {
-    font-family: "Roboto", sans-serif !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 .gradient-color, 
 .single-stories-carousel:hover h6 a, 
@@ -25,6 +26,7 @@ html {
 .bg-padrao input {
     background: #F5F6FA !important;
 }
+
 
 .single-footer-widget input {
     width: 100%;
@@ -350,7 +352,44 @@ html {
     cursor: pointer;
     transition: all 0.25s;
 }
+
+/* PÁGINA USER */
+.dados-user span{
+    color: #1e1c27;
+}
+
+.cor-padrao ,
+.user-summary li a , 
+.user-summary .nav-link ,
+.user-summary li a i{
+    color: gray !important;
+}
+
+
+#todosAll a {
+    font-size:  16px ;
+}
+#todosAll i {
+    font-size: 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*======================================= Minhas Coisas =======================================*/
+.alert-info {
+    background-color: #d9efff;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+}
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
 }
@@ -437,6 +476,13 @@ html {
     height: 55px;
     border-radius: 50%;
 }
+.avatar-user-saudacoes a i {
+    color: gray !important
+}
+.avatar-user-saudacoes a  {
+    color: #0094ff !important;
+    font-size: 0.90rem;
+}
 
 .form-legend {
     background: #7B33FF;
@@ -456,6 +502,7 @@ html {
     color: white !important;
 }
 
+.tab-pane input,
 .form-contactos .form-group .form-control,
 .modal form .form-group input {
     border-radius: 0px !important;
@@ -531,6 +578,26 @@ html {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .dropdown-menu .name {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -552,4 +619,22 @@ html {
     font-weight: normal;
     color: gray;
     white-space: normal;
+ }
+ .info-dropdown .row .col-lg-12:hover {
+    background: #008cff77;
+    cursor: pointer;
+    width: 100%;
+    color: gray;
+ }
+
+ .dropdown-menu li i , 
+ .dropdown-menu li .desc{
+     color: gray;
+ }
+ .dropdown-menu li .name_user {
+     font-size: 0.90rem;
+     color: rgb(29, 29, 29);
+ }
+ .dropdown-menu li .desc {
+     font-size: 0.80rem;
  }
