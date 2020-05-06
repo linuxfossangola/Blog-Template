@@ -527,18 +527,13 @@ select ,
 .register-descricao {
     margin-top: 140px !important;
 }
-
 .text-red {
     color: red !important;
 }
-
-
-
 /* Modal Login */
 .login-descricao {
     margin-top: 60px !important;
 }
-
 
 
 /* Buttons */
@@ -581,27 +576,6 @@ select ,
     color: #B3B3B3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .dropdown-menu .name {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -642,3 +616,194 @@ select ,
  .dropdown-menu li .desc {
      font-size: 0.80rem;
  }
+
+
+
+
+
+
+
+
+ /* Tabela */
+ .category-list, .topic-list, .latest-topic-list {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+}
+.topic-list {
+    margin: 0 0 10px;
+}
+.topic-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+    border-color: grey;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    border-bottom: 1px solid #f3f2f2;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.topic-list th:first-of-type, .topic-list td:first-of-type {
+    padding-left: 10px;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
+.topic-list th, .topic-list td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: middle;
+}
+table th {
+    font-weight: normal;
+    color: gray;
+    text-align: left;
+    padding: 0.5em;
+}
+td, th {
+    padding: 0;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.topic-list .posters {
+    width: 146px;
+}
+.main-link a {
+    color: #242424 !important;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
+topic-list th, .topic-list td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: middle;
+}
+table th {
+    font-weight: normal;
+    color: gray;
+    text-align: left;
+    padding: 0.5em;
+}
+.topic-list .posts {
+    width: 65px;
+}
+.topic-list .num {
+    text-align: center;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
+.topic-list th, .topic-list td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: middle;
+}
+.sortable {
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+table th {
+    font-weight: normal;
+    color: gray;
+    text-align: left;
+    padding: 0.5em;
+}
+td, th {
+    padding: 0;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.topic-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.topic-list .views {
+    width: 65px;
+}
+.topic-list .num {
+    text-align: center;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
+.topic-list th, .topic-list td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: middle;
+}
+.sortable {
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.topic-list th:last-of-type, .topic-list td:last-of-type {
+    padding-right: 10px;
+}
+.topic-list .activity {
+    width: 60px;
+}
+.topic-list .num {
+    text-align: center;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
+.topic-list th, .topic-list td {
+    line-height: 1.4;
+    text-align: left;
+    vertical-align: middle;
+}
+table th {
+    font-weight: normal;
+    color: gray;
+    text-align: left;
+    padding: 0.5em;
+}
+.topic-list th:first-of-type, .topic-list td:first-of-type {
+    padding-left: 10px;
+}
+.topic-list-item td:first-child, .topic-post {
+    border-left: 1px solid transparent;
+}
+.topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
+    font-size: 1.1487em;
+}
+.topic-list th, .topic-list td {
+    padding: 12px 5px;
+}
