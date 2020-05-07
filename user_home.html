@@ -822,7 +822,7 @@
                                         <div class="col-lg-12">
                                             <!-- Tabela -->
                                             <form class="mb-4 float-right">
-                                                <button class="btn"><i></i> Descartar</button>
+                                                <button class="btn"><i class="fas fa-check"></i> Descartar</button>
                                             </form>
                                             <table class="topic-list ember-view col-lg-12">
                                                 <thead>
@@ -1177,11 +1177,24 @@
                                 </div>
                                 <div class="tab-pane fade" id="naolidas" role="tabpanel" aria-labelledby="melhores">
                                     <div class="row">
-                                        <div class="col-lg-12">
+                                        <div class="col-lg-8 mt-4">
                                             <p>Seus tópicos não lidos aparecem aqui.</p>
                                             <div class="education">
                                                 <p>Por padrão, tópicos são considerados como não lidos e irão mostrar
                                                     contadores 1 se você:</p>
+                                                <ul class="m-4">
+                                                    <li>Criou o tópico</li>
+                                                    <li>Respondeu ao tópico</li>
+                                                    <li>Leu o tópico por mais de 4 minutos</li>
+                                                </ul>
+                                                <p>Ou se você explicitamente colocou o tópico
+                                                    como
+                                                    Monitorado ou
+                                                    Observado através do controle de notificações na parte inferior de
+                                                    cada tópico.
+
+                                                    Visite suas <a href="user.html#preferencia"> preferências </a> para
+                                                    alterar isto.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1199,6 +1212,13 @@
             </div>
         </div>
     </div>
+
+
+
+    <!-- Novo Tópico -->
+    <button id="create-topic" class="btn-default btn btn-icon-text ember-view" type="button">
+        <i class="fas fa-plus"></i>
+    </button>
 
 
 
