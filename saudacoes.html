@@ -516,8 +516,10 @@
                         <!-- Partilhas -->
                         <div class="row mt-4 partilhas-buttons">
                             <div class="col-lg-12 mt-2">
-                                <button><i class="fas fa-link"></i> Compartilhar</button>
-                                <button><i class="fas fa-folder"></i> Arquivar</button>
+                                <button data-toggle="modal" data-target="#compartilhar"><i class="fas fa-link"></i>
+                                    Compartilhar</button>
+                                <a class="btn bg-mk" href="user.html#mensagem "><i class="fas fa-folder"></i>
+                                    Arquivar</a>
                                 <button class="bg-primary text-white" data-toggle="modal" data-target=".responder"><i
                                         class="fas fa-reply-all"></i>
                                     Responder</button>
@@ -549,26 +551,32 @@
     </div>
 
     <!-- Modal de Compartilha -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-    </button>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="compartilhar" tabindex="-1" role="dialog" aria-labelledby="compartilhar"
         aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Compartilhar Link</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <form method="post">
+                        <div class="form-group">
+                            <textarea name="" class="form-control" style="height: 38px;"
+                                value="https://plus.diolinux.com.br/t/saudacoes/18008?u=pedro_makengo_miguel"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fab fa-facebook-square"></i>
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                    </button>
                 </div>
             </div>
         </div>
