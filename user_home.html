@@ -1216,16 +1216,135 @@
 
 
     <!-- Novo Tópico -->
-    <button id="create-topic" class="btn-default btn btn-icon-text ember-view" type="button">
+    <button id="create-topic" class="btn-default btn btn-icon-text ember-view" type="button" data-toggle="modal"
+        data-target=".responder">
         <i class="fas fa-plus"></i>
     </button>
 
 
+    <!-- Modal para responder -->
+    <div class="modal fade responder " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <div class="dropdown">
+                            <button class="bnt-padrao" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <i class="fas fa-share"></i>
+                            </button>
+                            Criar um novo tópico
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 340px;">
+                                <ul class="nav flex-column" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                            role="tab" aria-controls="profile" aria-selected="false">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <span class="name_user">Nova
+                                                        mensagem</span>
+                                                    <p class="desc">Criar um novo tópico
+                                                        relacionado a
+                                                        este tópico</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
-
-
-
-
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-lg-12 mt-2">
+                                            <input type="text" class="form-control"
+                                                placeholder="Sobre o que é esta discussão em uma breve frase ?">
+                                        </div>
+                                        <div class="col-lg-6 mt-2">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6 mt-2">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">3</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-12 mt-2">
+                                            <div class="form-group">
+                                                <textarea id="editor4"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 mt-2">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <button class="col-lg-12 btn btn-primary">
+                                                        <i class="fas fa-reply-all"></i>
+                                                        Responder</button>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <button class="col-lg-12 btn">Cancelar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="Adicionar um usuário">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp"
+                                                    placeholder="Sobre o que é esta discussão em uma breve frase ?">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <textarea id="editor5"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <button class="col-lg-12 btn btn-primary">
+                                                        <i class="fas fa-envelope"></i>
+                                                        Criar Mensagem</button>
+                                                </div>
+                                                <div class="col-lg-3">
+                                                    <button class="col-lg-12 btn">Cancelar</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para responder -->
 
 
 
@@ -1258,6 +1377,14 @@
     <script>
         tinymce.init({
             selector: 'textarea#editor3',
+            menubar: false
+        });
+        tinymce.init({
+            selector: 'textarea#editor4',
+            menubar: false
+        });
+        tinymce.init({
+            selector: 'textarea#editor5',
             menubar: false
         });
     </script>
