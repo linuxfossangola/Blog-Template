@@ -76,7 +76,11 @@
                             <span>Eloyme Samuel</span>
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">
+                                <a class="dropdown-item" href="saudacoes.html">
+                                    <i class="fas fa-bell"></i>
+                                    Saudações
+                                </a>
+                                <a class="dropdown-item" href="user.html#resumo">
                                     <i class="fas fa-user"></i>
                                     Resumo
                                 </a>
@@ -122,25 +126,32 @@
                         <div class="col-lg-9 ">
                             <ul class="nav nav-pills float-right">
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="#home-tab">Categorias</a>
+                                    <a class="nav-link active" id="categorias-tab" data-toggle="tab" href="#categorias"
+                                        role="tab" aria-controls="categorias" aria-selected="true">Categorias</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Recentes</a>
+                                    <a class="nav-link" id="recentes-tab" data-toggle="tab" href="#recentes" role="tab"
+                                        aria-controls="recentes" aria-selected="true">Recentes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Novos</a>
+                                    <a class="nav-link" id="novo-tab" data-toggle="tab" href="#novo" role="tab"
+                                        aria-controls="novo" aria-selected="true">Novos (51)</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Melhores</a>
+                                    <a class="nav-link" id="melhores-tab" data-toggle="tab" href="#melhores" role="tab"
+                                        aria-controls="melhores" aria-selected="true">Melhores</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Não lidas</a>
+                                    <a class="nav-link" id="naolidas-tab" data-toggle="tab" href="#naolidas" role="tab"
+                                        aria-controls="naolidas" aria-selected="true">Não lidas</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Minhas Mensagens</a>
+                                    <a class="nav-link" id="mensagens-tab" data-toggle="tab" href="#mensagens"
+                                        role="tab" aria-controls="mensagens" aria-selected="true">Minhas Mensagens</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Favoritas</a>
+                                    <a class="nav-link" id="favoritas-tab" data-toggle="tab" href="#favoritas"
+                                        role="tab" aria-controls="favoritas" aria-selected="true">Favoritas</a>
                                 </li>
                             </ul>
                         </div>
@@ -458,10 +469,728 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="recentes" role="tabpanel" aria-labelledby="recentes">
-                                    <h2>Olá Mundo</h2>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <!-- Tabela -->
+                                            <table class="topic-list ember-view col-lg-12">
+                                                <thead>
+                                                    <th class="default">Tópico</th>
+                                                    <th class="posters"></th>
+                                                    <th class="posts sortable num">Respostas</th>
+                                                    <th class="views sortable sorting num">Visualizações</th>
+                                                    <th class="activity sortable num">Actividade</th>
+                                                </thead>
+                                                <tbody>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- Tabela -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="novo" role="tabpanel" aria-labelledby="melhores">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <!-- Tabela -->
+                                            <form class="mb-4 float-right">
+                                                <button class="btn"><i></i> Descartar</button>
+                                            </form>
+                                            <table class="topic-list ember-view col-lg-12">
+                                                <thead>
+                                                    <th class="default">Tópico</th>
+                                                    <th class="posters"></th>
+                                                    <th class="posts sortable num">Respostas</th>
+                                                    <th class="views sortable sorting num">Visualizações</th>
+                                                    <th class="activity sortable num">Actividade</th>
+                                                </thead>
+                                                <tbody>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr data-topic-id="7506" id="ember575"
+                                                        class="topic-list-item category-sem-categoria ember-view">
+                                                        <td class="main-link clearfix" colspan="1">
+                                                            <span class="link-top-line">
+                                                                <a href="#" class="title raw-link raw-topic-link"
+                                                                    data-topic-id="7506">Cálculo, lógica e atenção são
+                                                                    igualmente importantes em um programador</a><span
+                                                                    class="topic-post-badges"></span>
+                                                            </span>
+                                                            <div class="link-bottom-line">
+                                                                <a class="badge-wrapper box" href="#"><span
+                                                                        class="badge-category-bg"
+                                                                        style="background-color: #0088CC;"></span><span
+                                                                        style="color: #FFFFFF;" data-drop-close="true"
+                                                                        class="badge-category clear-badge"><span
+                                                                            class="category-name">OFF</span></span></a>
+                                                            </div>
+                                                        </td>
+                                                        <td class="posters">
+                                                            <a href="#" data-user-card="vovolinux" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="tnsampa" class=""><img alt=""
+                                                                    width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="saymon.damasio" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                            <a href="#" data-user-card="Natanael.755" class=""><img
+                                                                    alt="" width="25" height="25" src="assets/img/1.png"
+                                                                    class="avatar"></a>
+                                                        </td>
+                                                        <td class="num posts-map posts heatmap-med">
+                                                            <a href="#" class="posts-map badge-posts heatmap-med">
+                                                                <span class="number">30</span>
+                                                            </a>
+                                                        </td>
+                                                        <td class="num views heatmap-high"><span
+                                                                class="number">88,3k</span>
+                                                        </td>
+
+                                                        <td class="num age coldmap-high activity">
+                                                            <a class="post-activity" href="#"><span
+                                                                    class="relative-date" data-time="1586376678773"
+                                                                    data-format="tiny">28d</span></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- Tabela -->
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="melhores" role="tabpanel" aria-labelledby="melhores">
-                                    <h2>Olá 11212</h2>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>Seus tópicos não lidos aparecem aqui.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="naolidas" role="tabpanel" aria-labelledby="melhores">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <p>Seus tópicos não lidos aparecem aqui.</p>
+                                            <div class="education">
+                                                <p>Por padrão, tópicos são considerados como não lidos e irão mostrar
+                                                    contadores 1 se você:</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="mensagens" role="tabpanel" aria-labelledby="melhores">
+                                    <h2>Olá mensagens</h2>
+                                </div>
+                                <div class="tab-pane fade" id="favoritas" role="tabpanel" aria-labelledby="melhores">
+                                    <h2>Olá favoritas</h2>
                                 </div>
                             </div>
                         </div>
