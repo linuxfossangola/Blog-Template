@@ -1,8 +1,81 @@
+
+
 /* RESET */
 html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+/* ======================================= PÁGINA HOME=======================================  */
+.nav-menu a {
+    font-weight: normal !important;
+}
+.header-top .logo img {
+    width: 10% !important; 
+    margin-bottom: 20px !important;
+}
+.mk-card {
+    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-size: 100%  !important;
+    background-position: center;
+    border-radius: 0px !important;
+    color: white !important;
+}
+.mk-card img {
+    width:50% !important;
+}
+.mk-card h2 , 
+.mk-card h3 {
+    font-weight: bold;
+}
+.mk-section-card .card-mk {
+    transition: .2s;
+    border: 1px solid #ECEEF1;
+}
+.mk-section-card .card-mk:hover {
+    cursor: pointer;
+    transition: .2s;
+    transform: scale(1.026);
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.075);
+    border: 0px !important;
+    z-index: 1;
+}
+.mk-section-card .card-body h4 {
+    font-weight: bold;
+}
+.mk-section-card .card-mk-autor strong {
+    color: black !important;
+}
+#mobile-nav-toggle i {
+    color: #000;
+    font-weight: 900;
+}
+/* Paginação  */
+.page-item.active .page-link, .blog-pagination .page-link:hover, .single-footer-widget .sub-btn  {
+    background:  linear-gradient(87deg, #f57f17 0, #ff9100e0 100%)  !important;
+}
+/* Footer */
+.footer-area {
+    background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
+    background-size: 100%  !important;
+    background-position: center;
+}
+.parceiros {
+    height: 150px;
+    background: #F5F6FA !important;
+    margin-top: -100px;
+}
+.customers {
+    margin-top: 40px !important;
+}
+.customers img {
+    width: 100px !important;
+}
+.owl-controls {
+    display: none !important;
+}
+
 .gradient-color, 
 .single-stories-carousel:hover h6 a, 
 .single-post-carousel:hover 
@@ -19,187 +92,66 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
-.nav-menu a {
-    font-weight: normal !important;
-}
-/* INPUT DE PESQUISA */
-.bg-padrao input {
-    background: #F5F6FA !important;
-}
-
-
-.single-footer-widget input {
-    width: 100%;
-    border: 1px solid #ffffff;
-    font-size: 13px;
-    line-height: 30px;
-    padding-right: 40px;
-    height: 41px;
-    color: #999999;
-    background: #000000;
-    padding-left: 20px;
-}
-/* TRABALHANDO COM CARD */
-.mk-card {
-    background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
-    background-size: 100%  !important;
-    background-position: center;
-    border-radius: 0px !important;
-    color: white !important;
-}
-.mk-card img {
-    width:50% !important;
-}
-.mk-card h2 , 
-.mk-card h3 {
-    font-weight: bold;
-}
-/* CARD */
-.mk-section-card .card-mk {
-    transition: .2s;
-    border: 1px solid #ECEEF1;
-}
-.mk-section-card .card-mk:hover {
-    cursor: pointer;
-    transition: .2s;
-    transform: scale(1.026);
-    overflow: hidden;
-    background: #ffffff;
-    box-shadow: 0 0 40px 0 rgba(0,0,0,.075);
-    border: 0px !important;
-    z-index: 1;
-}
-
-.mk-section-card .card-body h4 {
-    font-weight: bold;
-}
-.mk-section-card .card-mk-autor strong {
-    color: black !important;
-}
-
-/* FOOTER */
-.footer-area {
-    background-image: linear-gradient(87deg, #000000 0, #000000ec 100%) , url(../img/ilustracao/fundo.gif) !important;
-    background-size: 100%  !important;
-    background-position: center;
-}
-/* PAGINAÇÃO  */
-.page-item.active .page-link, .blog-pagination .page-link:hover, .single-footer-widget .sub-btn  {
-    background:  linear-gradient(87deg, #f57f17 0, #ff9100e0 100%)  !important;
-}
-/* ====================================== parceiros ====================================== */
-.parceiros {
-    height: 150px;
-    background: #F5F6FA !important;
-    margin-top: -100px;
-}
-.customers {
-    margin-top: 40px !important;
-}
-.customers img {
-    width: 100px !important;
-}
-.owl-controls {
-    display: none !important;
-}
-/* ================================= PÁGINA DE DICAS ================================= */
-.publicidade {
-    height: 200px;
-    border: 1px solid #bababb !important;
-    /* background: #F5F6FA !important; */
-}
-.publicidade h3 {
-    color: #5C5C5C !important;
-    box-sizing: border-box;
-    flex-shrink: 0;
-    line-height: 1.4em;
-    font-weight: 300;
-}
-.publicidade .publicidade-right {
-    background: #3E3D3D !important;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin-top: 40px !important;
-}
-.publicidade .publicidade-right a {
-    text-align: center !important;
-    margin: 10px auto !important;
-}
-.publicidade i {
-    font-size: 40px;
-    color: white !important;
-}
-.margem_topo {
-    height: 100px;
-    margin-top: -190px !important;
-}
-.banner-area {
-    background-size: auto;
-    background-position-y: 0rem;
-    background-image:  linear-gradient(87deg, #000000b4 0, #000000a1 100%), url(../img/ilustracao/fundo.png)  !important;
-}
-@media(max-width: 700px) {
+@media (max-width: 700px) {
+    /* logo */
+    .header-top .logo img {
+        width: 32% !important;
+    }
+    /* end logo */
+    .top-stories-area.mk-card {
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+        
+    }
+    .top-stories-area.mk-card h2,
+    .top-stories-area.mk-card h3 {
+        text-align: center !important;
+    }
+    .top-stories-area.mk-card h2 {
+        font-size: 1.5rem;
+    }
+    .top-stories-area.mk-card h3 {
+        font-size: 1rem;
+    }
+    .main-body {
+        margin-top: -30px !important;
+    }
+    /* Sidebar */
+    .main-body .sidebar {
+        margin-top: -20px !important;
+    }
+    /* Paginação */
+    .home-paginacao {
+        margin-top: 45px !important;
+        margin-bottom: 45px !important;
+    }
+    /* Parceiros */
+    .parceiros {
+        margin-top: 20px !important;
+        text-align: center;
+    }
+    /* Footer */
+    .footer-area {
+        background-image: none !important;
+    }
     .margem_topo {
         height: auto !important;
         margin-top: 0px !important;
     }
-    .publicidade {
-        height: auto !important;
-    }
+
 }
-/* ============================= PÁGINA COMO FAZER =================================== */
-.banner_como_fazer {
-    height: 500px;
-    background-size: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-image:  linear-gradient(87deg, #0000006e 0, #0000006e 100%), url(https://redislabs.com/wp-content/uploads/2019/01/blog-social-redis-cli.jpg)  !important;
-}
-.bannger_margem_topo {
-    margin-top: 65px;
-    padding: 160px 0px;
-    color: white !important;
-}
-.bannger_margem_topo .col-lg-4 h2 {
-    color: white !important;
-    text-align: right;
-}
-.bannger_margem_topo .col-lg-4 p{
-    margin-top: 30px !important;
-    text-align: justify;
-}
+/* ======================================= END PÁGINA HOME=======================================  */
 
 
-/* PÁGINA DE CONTACTOS */
-.banner-contactos {
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-image:  linear-gradient(87deg, #f57f17 0, #ff910096 100%) , url(https://image.freepik.com/free-photo/african-american-business-woman-talking-phone-cafe_1303-9875.jpg)  !important;
-}
-.contact-page-area .single-contact-address .lnr {
-    color: #f57f17 !important;
-}
-.genric-btn.primary {
-    background: #f57f17 !important;
-}
-.genric-btn.primary:hover {
-    color: white !important;
-}
 
-
-/* PAGINA SOBRE LINUX FOSS ANGOLA */
-
-/* Banner Principal */
+/*  ========================================= PÁGINA SOBRE NÓS =========================================  */
 .banner-sobre {
     height: 450px;
     background-position: top !important;
     background-repeat: no-repeat !important;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)  !important;
+    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)!important;
 }
-/* Banner Sobre Linux Foss Angola */
 .sobre-banner-linux {
     background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://segredosdomundo.r7.com/wp-content/uploads/2019/11/pinguim-tudo-o-que-voce-precisa-saber-sobre-esse-animal-7.jpg); 
     background-size: 100% ; 
@@ -224,17 +176,13 @@ html {
 .sobre-linux span {
     font-size: 16px;
 }
-
-
-/* Comunidade */
 .sobre-banner-comunidade {
-    height: 430px;
+    height: 450px;
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #000000dc 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)  !important;
+    background-image:  linear-gradient(87deg, #000000dc 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg);
 }
-
 .comunidade {
     margin-top: 80px !important;
 }
@@ -247,16 +195,161 @@ html {
     font-size: 30px !important;
     margin-bottom: 5px;
 }
+@media (max-width: 700px) {
+    /* Trocar a imagem do fundo */
+    .banner-sobre {
+        background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%), url();
+    }
+    .sobre-banner-linux {
+        height: 720px;
+        padding-top: 25px !important;
+        padding-bottom: 20px !important;
+        background-image: none !important;
+        background-color: #2b2b2b !important;
+    }
+    .sobre-banner-comunidade {
+        height: 910px;
+        background-image: none !important;
+        background-color: #2b2b2b !important;
+    }
+}
+/* ============================================== END PÁGINA SOBRE==============================================  */
 
 
-/* Forum */
+/* ================================================ PÁGINA DE DICAS================================================   */
+.banner-area {
+    background-size: auto;
+    background-position-y: 0rem;
+    background-image:  linear-gradient(87deg, #000000b4 0, #000000a1 100%), url(../img/ilustracao/fundo.png);
+}
+.sessao-dicas {
+    margin-top: -90px !important;
+}
+.pesquisa-padrao {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+@media (max-width: 700px) {
+    .sessao-dicas {
+        margin-top: -30px !important;
+    }
+    .pesquisa-padrao {
+        padding: none ;
+    }
+}
+/* ================================================ END PÁGINA DE DICAS ================================================ */
 
+
+/*=================================== PÁGINA SAÍBA COMO ===================================*/
+.banner_como_fazer {
+    padding: 10px;
+    height: 500px;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-image:  linear-gradient(87deg, #0000006e 0, #0000006e 100%), url(https://redislabs.com/wp-content/uploads/2019/01/blog-social-redis-cli.jpg)  !important;
+}
+.banner_como_fazer img {
+    width: 60%;
+}
+.bannger_margem_topo {
+    margin-top: -35px;
+    padding: 150px 0px;
+    color: white !important;
+}
+.bannger_margem_topo .col-lg-4 h2 {
+    color: white !important;
+    text-align: right;
+}
+.bannger_margem_topo .col-lg-4 p{
+    margin-top: 30px !important;
+    text-align: justify;
+}
+.saiba {
+    margin-top: -90px !important;
+}
+@media (max-width: 700px) {
+
+}
+/* ================================== END SAÍBA COMO==================================  */
+
+
+/* =============================  PÁGINA DE CONTACTOS=============================  */
+.banner-contactos {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image:  linear-gradient(87deg, #f57f17 0, #ff910096 100%) , url(https://image.freepik.com/free-photo/african-american-business-woman-talking-phone-cafe_1303-9875.jpg)  !important;
+}
+.contact-page-area .single-contact-address .lnr {
+    color: #f57f17 !important;
+}
+.genric-btn.primary {
+    background: #f57f17 !important;
+}
+.genric-btn.primary:hover {
+    color: white !important;
+}
+@media (max-width: 700px) {
+}
+/* ============================= END PÁGINA DE CONTACTOS=============================  */
+
+
+/* =================================== PÁGINA DE DOAÇÃO===================================  */
+.banner-doar {
+    height: 500px !important;
+    background-size: 100%;
+    background-position: center;
+    background-image: linear-gradient(87deg, #020202c7 0, #020202c7 100%), url(../img/ilustracao/parceiros-1.jpg) !important;
+}
+.background-doacao {
+    background-image: linear-gradient(87deg, #020202c7 0, #020202c7 100%) ,url(../img/ilustracao/fundo-principal.jpg) !important;
+    background-size: 200%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px !important;
+}
+.background-doacao h3 {
+    position: relative;
+    top: 300px !important;
+}
+.sessao-doacao {
+    margin-top: 80px !important;
+}
+.descricao-doar p {
+    text-align: justify;
+}
+.publicidade {
+    background-image: url(../img/publicidade/banner-mk.png) !important;
+    background-size: 100% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 200px !important;
+    padding: 30px;
+}
+ @media (max-width: 700px) {}
+/* =================================== END PÁGINA DE DOAÇÃO===================================  */
+
+
+/* =========================================== PÁGINA DE FORUM ===========================================  */
+/* Tabs */
+.nav-pills .nav-link {
+    font-size: 1.1487em;
+    color: black !important;
+}
+.nav-pills .nav-link.active{
+    color: #f57f17 !important;
+    border-bottom: 2px solid #f57f17;
+    border-radius: 0px !important;
+    background: none !important;
+    font-weight: 500;
+}
+/* Botão de Pesquisa */
 .combox-search {
-    /* border: 1px solid black !important; */
-     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff
 }
-
 .btn-light {
     background: none !important;
     width: 100% !important;
@@ -273,24 +366,48 @@ html {
 .bootstrap-select > .dropdown-toggle:focus {
     outline: none !important;
 }
-
-
-
-
-.nav-pills .nav-link {
-    font-size: 1.1487em;
-    color: black !important;
-}
-.nav-pills .nav-link.active{
-    color: #f57f17 !important;
-    border-bottom: 2px solid #f57f17;
+select ,
+.tab-pane input,
+.form-contactos .form-group .form-control,
+.modal form .form-group input {
     border-radius: 0px !important;
-    background: none !important;
-    font-weight: 500;
+    border: 0px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    background-color: #fff !important;
 }
+.modal form .form-group input[type=submit] {
+    border-radius: 4px !important;
+}
+.modal-login{
+    width: 100%;
+    background-size: 100% !important;
+    background-image: linear-gradient(87deg, #FFCE8B 0, #FA5B72 100%) !important;
+}   
+.register-descricao {
+    margin-top: 140px !important;
+}
+.text-red {
+    color: red !important;
+}
+.login-descricao {
+    margin-top: 60px !important;
+}
+.forum-margem {
+    margin-right: 6px !important;
+}
+@media (max-width: 700px) {
+    .modal-login {
+        display: none !important;
+    }
+    .forum-margem {
+        padding: 20px;
+        margin-right: -16px !important;
+    }
+}
+/* ========================================== END PÁGINA DE FORUM ==========================================  */
 
 
-/* PÁGINA DE SAUDAÇÃO */
+/* =========================================== PÁGINA DE SAUDAÇÃO ===========================================  */
 .topico {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff;
@@ -312,7 +429,6 @@ html {
     cursor: pointer;
     border-radius: 50%;
 }
-
 .topico .user {
     border: 1px solid #e6e6e6;
     border-radius: 0.25em;
@@ -323,7 +439,6 @@ html {
     height: 26px;
 
 }
-
 .topico .username {
     margin-left: 0.35em; 
     margin-right: 0.25em;
@@ -352,47 +467,60 @@ html {
     cursor: pointer;
     transition: all 0.25s;
 }
+@media (max-width: 700px) {
 
-/* PÁGINA USER */
+}
+/* =========================================== END PÁGINA DE SAUDAÇÃO ===========================================  */
+
+
+/* ======================================= PÁGINA USER ============================================================*/
 .dados-user span{
     color: #1e1c27;
 }
-
 .cor-padrao ,
 .user-summary li a , 
 .user-summary .nav-link ,
 .user-summary li a i{
     color: gray !important;
 }
-
-
 #todosAll a {
     font-size:  16px ;
 }
 #todosAll i {
     font-size: 20px !important;
 }
-
 .topic-list {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff;
 }
-
 .conta label{
     font-weight: bold;
     font-size: 1.3195em;
     line-height: 1.4;
 }
+/* ================================================ END PÁGINA USER ================================================*/
 
 
 
 
-/*======================================= Minhas Coisas =======================================*/
+/*=============================================================================================*/
+/*=======================================               =======================================*/
+/*=======================================               =======================================*/
+/*=======================================    Mk-Soft    =======================================*/
+/*=======================================               =======================================*/
+/*=======================================               =======================================*/
+/*=============================================================================================*/
+
+
+
+/* Alerta */
 .alert-info {
     background-color: #d9efff;
     padding: 0.5em 1em;
     border-radius: 2px;
 }
+
+/* Border-Left */
 .bl-mk {
     border-left: 4px solid #f57f17 !important;
 }
@@ -406,6 +534,23 @@ html {
     border-left: 4px solid #7B33FF !important;
 }
 
+/* Input */
+.bg-padrao input {
+    background: #F5F6FA !important;
+}
+.single-footer-widget input {
+    width: 100%;
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 40px;
+    height: 41px;
+    color: #999999;
+    background: #000000;
+    padding-left: 20px;
+}
+
+/* Background */
 .bg-padrao {
     background:#f57f17 !important;
 }
@@ -421,9 +566,22 @@ html {
 .bg-mk-1 {
     background: #F5F6FA !important;
 }
+.bg-cinza {
+    background: #e9e8e8;
+}
+
+/* Cores */
+.cor-sinza {
+    color: #B3B3B3;
+}
 .bg-mk a {
     color: black !important;
 }
+.main-link a {
+    color: #242424 !important;
+}
+
+/* Carousel */
 .legend-carousel {
     background: #f57f17;
     padding: 1px;
@@ -435,6 +593,7 @@ html {
     margin-bottom: 0px;
     background: #1e1c27;
 }
+/* Redes Sociais */
 .social-links {
     margin-top: 80px;
 }
@@ -446,7 +605,6 @@ html {
     bottom: 20px;
     left: 0px;
 }
-
 .card {
     border-radius: 0px !important;
 }
@@ -454,11 +612,11 @@ html {
     list-style-type: disc
 }
 
+/* Formulário Card */
 .form-card .card {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff
 }
-
 .img-categoria img{
     width: 120px !important;
     height: 120px !important;
@@ -486,13 +644,13 @@ html {
     color: #0094ff !important;
     font-size: 0.90rem;
 }
-
 .form-legend {
     background: #7B33FF;
     color: white;
     padding: 5px 5px;
 }
 
+/* Botões */
 .btn-padrao {
     background: linear-gradient(87deg, #FFCE8B 0, #FA5B72 100%) !important;
     border: 1px solid #FFCE8B !important;
@@ -504,37 +662,6 @@ html {
 .btn-primary {
     color: white !important;
 }
-
-select ,
-.tab-pane input,
-.form-contactos .form-group .form-control,
-.modal form .form-group input {
-    border-radius: 0px !important;
-    border: 0px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
-    background-color: #fff !important;
-}
-.modal form .form-group input[type=submit] {
-    border-radius: 4px !important;
-}
-
-.modal-login{
-    width: 100%;
-    background-size: 100% !important;
-    background-image: linear-gradient(87deg, #FFCE8B 0, #FA5B72 100%) !important;
-}   
-
-.register-descricao {
-    margin-top: 140px !important;
-}
-.text-red {
-    color: red !important;
-}
-/* Modal Login */
-.login-descricao {
-    margin-top: 60px !important;
-}
-
 
 /* Buttons */
 .bnt-padrao {
@@ -556,7 +683,6 @@ select ,
     cursor: pointer;
     color: black;
 }
-
 .btn-replay {
     border-radius: 50%;
     border: none;
@@ -571,11 +697,7 @@ select ,
     transition: right 0.5s, bottom 0.5s, border-radius 0.5s, text-indent 0.2s, visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s, background-color 2s, transform 0.5s;
 }
 
-
-.cor-sinza {
-    color: #B3B3B3;
-}
-
+/* Dropdown */
 .dropdown-menu .name {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -598,30 +720,25 @@ select ,
     color: gray;
     white-space: normal;
  }
- .info-dropdown .row .col-lg-12:hover {
+.info-dropdown .row .col-lg-12:hover {
     background: #008cff77;
     cursor: pointer;
     width: 100%;
     color: gray;
- }
-
- .dropdown-menu li i , 
+}
+.dropdown-menu li i , 
  .dropdown-menu li .desc{
      color: gray;
- }
- .dropdown-menu li .name_user {
+}
+.dropdown-menu li .name_user {
      font-size: 0.90rem;
      color: rgb(29, 29, 29);
- }
- .dropdown-menu li .desc {
+}
+.dropdown-menu li .desc {
      font-size: 0.80rem;
- }
+}
 
-
-
-
-
- /* Tabela */
+ /* Tabela Diolinux */
  .category-list, .topic-list, .latest-topic-list {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff;
@@ -630,7 +747,7 @@ select ,
     margin: 0 0 10px;
 }
 .topic-list {
-    width: 100%;
+    width: 100% !important;
     border-collapse: collapse;
 }
 table {
@@ -686,9 +803,7 @@ th {
 .topic-list .posters {
     width: 146px;
 }
-.main-link a {
-    color: #242424 !important;
-}
+
 .topic-list th, .topic-list td {
     padding: 12px 5px;
 }
@@ -768,7 +883,6 @@ table {
     -moz-user-select: none;
     -ms-user-select: none;
 }
-
 .topic-list th:last-of-type, .topic-list td:last-of-type {
     padding-right: 10px;
 }
@@ -805,14 +919,6 @@ table th {
     padding: 12px 5px;
 }
 
-
-
-
-
-
-
-
-
 #create-topic.btn-default {
     display: flex;
     align-items: center;
@@ -839,4 +945,10 @@ table th {
     margin-bottom: 9px;
     font-size: 1.1487em;
     font-weight: normal;
+}
+
+/* card-box */
+.card-box {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12) !important;
+    background-color: #fff !important;
 }
