@@ -198,7 +198,13 @@ html {
 @media (max-width: 700px) {
     /* Trocar a imagem do fundo */
     .banner-sobre {
-        background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%), url();
+        background-size: 100% !important;
+        height:210px;
+        background-image: url(https://i0.wp.com/sempreupdate.com.br/wp-content/uploads/2020/03/razoes-pelas-quais-voce-deve-escolher-o-debian-linux.jpg?fit=1280%2C720&ssl=1) !important;
+    }
+    .banner-sobre h1 {
+        font-size: 2rem;
+        margin-top: -135px;
     }
     .sobre-banner-linux {
         height: 720px;
