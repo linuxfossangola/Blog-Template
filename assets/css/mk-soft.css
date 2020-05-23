@@ -92,6 +92,14 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
+/* Carousel */
+
+.carousel-img {
+    height: 600px;
+}
+.carousel-img img {
+    height: 100%;
+}
 @media (max-width: 700px) {
     /* logo */
     .header-top .logo img {
@@ -101,7 +109,6 @@ html {
     .top-stories-area.mk-card {
         background-size: 100% !important;
         background-repeat: no-repeat !important;
-        
     }
     .top-stories-area.mk-card h2,
     .top-stories-area.mk-card h3 {
@@ -137,6 +144,16 @@ html {
     .margem_topo {
         height: auto !important;
         margin-top: 0px !important;
+    }
+    /* Carousel */
+    .carousel-content {
+        height:300px;
+    }
+    .carousel-content h2 {
+        font-size:1rem !important;
+    }
+    .carousel-img {
+        height: 350px;
     }
 
 }
