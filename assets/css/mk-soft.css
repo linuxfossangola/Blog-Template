@@ -147,23 +147,22 @@ html {
 /*  ========================================= PÁGINA SOBRE NÓS =========================================  */
 .banner-sobre {
     height: 450px;
-    background-position: top !important;
+    background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg)!important;
+    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://i0.wp.com/sempreupdate.com.br/wp-content/uploads/2020/03/razoes-pelas-quais-voce-deve-escolher-o-debian-linux.jpg?fit=1280%2C720&ssl=1) !important;
+
 }
 .sobre-banner-linux {
-    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://segredosdomundo.r7.com/wp-content/uploads/2019/11/pinguim-tudo-o-que-voce-precisa-saber-sobre-esse-animal-7.jpg); 
     background-size: 100% ; 
     height: 350px; 
     background-position: center;
-     background-attachment: fixed;
+    background-attachment: fixed;
 }
 .sobre-linux .card {
     background: transparent !important;
-    border: 1px solid white !important;
     border-radius: 0px !important;
-    color: white !important;
+    color: black !important;
 }
 .sobre-linux h4 {
     font-size: 24px;
@@ -171,7 +170,7 @@ html {
 .sobre-linux i {
     margin-bottom: 10px !important;
     font-size: 20px !important;
-    color: white !important;
+    color: #000 !important;
 }
 .sobre-linux span {
     font-size: 16px;
@@ -181,7 +180,8 @@ html {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #000000dc 0, #050505da 100%) , url(https://www.paisley.org.uk/wp-content/uploads/2019/06/expo-10.jpg);
+    background-color: #F9F9FF;
+    
 }
 .comunidade {
     margin-top: 80px !important;
@@ -210,13 +210,10 @@ html {
         height: 720px;
         padding-top: 25px !important;
         padding-bottom: 20px !important;
-        background-image: none !important;
-        background-color: #2b2b2b !important;
     }
     .sobre-banner-comunidade {
         height: 910px;
         background-image: none !important;
-        background-color: #2b2b2b !important;
     }
 }
 /* ============================================== END PÁGINA SOBRE==============================================  */
