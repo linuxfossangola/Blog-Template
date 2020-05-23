@@ -200,7 +200,7 @@ html {
     .banner-sobre {
         background-size: 100% !important;
         height:210px;
-        background-image: url(https://i0.wp.com/sempreupdate.com.br/wp-content/uploads/2020/03/razoes-pelas-quais-voce-deve-escolher-o-debian-linux.jpg?fit=1280%2C720&ssl=1) !important;
+        background-image: linear-gradient(87deg, #0000006e 0, #0000006e 100%),url(https://i0.wp.com/sempreupdate.com.br/wp-content/uploads/2020/03/razoes-pelas-quais-voce-deve-escolher-o-debian-linux.jpg?fit=1280%2C720&ssl=1) !important;
     }
     .banner-sobre h1 {
         font-size: 2rem;
@@ -272,7 +272,18 @@ html {
     margin-top: -90px !important;
 }
 @media (max-width: 700px) {
-
+    .banner_como_fazer {
+        background-attachment: local !important;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(87deg, #0000006e 0, #0000006e 100%),url(https://1.bp.blogspot.com/-ZmnOlgliqm4/WXuEf4eAqtI/AAAAAAAAGdo/_gXZ6pAVslwV7TAmkbkDqwpEdGsZ4mX6QCLcBGAs/s1600/1.png) !important;
+        background-size: 200% !important;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .banner_como_fazer h1 {
+        font-size: 2rem;
+        margin-top: -100px !important;
+    }
 }
 /* ================================== END SAÍBA COMO==================================  */
 
