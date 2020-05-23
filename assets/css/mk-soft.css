@@ -293,7 +293,7 @@ html {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #f57f17 0, #ff910096 100%) , url(https://image.freepik.com/free-photo/african-american-business-woman-talking-phone-cafe_1303-9875.jpg)  !important;
+    background-image:  linear-gradient(87deg, #000000cb 0, #000000cb 100%), url(https://image.freepik.com/free-photo/african-american-business-woman-talking-phone-cafe_1303-9875.jpg)  !important;
 }
 .contact-page-area .single-contact-address .lnr {
     color: #f57f17 !important;
@@ -305,6 +305,13 @@ html {
     color: white !important;
 }
 @media (max-width: 700px) {
+    .banner-contactos {
+        height: 300px;
+        background-size:150%;
+    }
+    .content-contactos {
+        margin-top: -20px;
+    }
 }
 /* ============================= END PÁGINA DE CONTACTOS=============================  */
 
