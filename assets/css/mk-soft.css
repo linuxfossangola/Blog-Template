@@ -622,6 +622,9 @@ select ,
 .bg-cinza {
     background: #e9e8e8;
 }
+.bg-twitter {
+    background: #1BA1F7 !important;
+}
 
 /* Cores */
 .cor-sinza {
