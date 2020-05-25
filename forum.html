@@ -37,447 +37,462 @@
     <!-- My Stylid -->
     <link rel="stylesheet" href="assets/css/mk-soft.css">
     <link rel="stylesheet" href="assets/css/bootstrap-select.css">
+    <!-- Bootstrap CSS CDN -->
 
 
     <!-- Argon Table -->
     <link rel="stylesheet" href="assets/css/table.css">
+
 </head>
 
-<body>
-    <!--================ Start header Top Area =================-->
-    <section class=" header-top">
-        <div class="container box_1170">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 col-md-12 col-sm-12 ">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <a href="index.html" class="logo">
-                                <img src="assets/img/icons/logo.png" class="col-lg-12" style="width: 90% !important">
-                            </a>
-                        </div>
-                        <div class="col-lg-7 mt-1">
-                            <form action="" class="mt-4">
+<body class="siber-forum">
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header bg-white p-3" style="padding-top: 13px !important;">
+                <img src="assets/img/icons/logo.png" style="width: 35%; text-align: center; margin: 0px auto">
+            </div>
+
+            <ul class="list-unstyled components bg-white fixed">
+                <li>
+                    <a href="#">Forum</a>
+                </li>
+                <li>
+                    <a href="#">Nova Postagem</a>
+                </li>
+                <li>
+                    <a href="#">Tendendo</a>
+                </li>
+                <li>
+                    <a href="#">Pesquisa Fóruns</a>
+                </li>
+                <li>
+                    <a href="#">Membros</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Sidebar  -->
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <!-- Nav -->
+            <nav class="navbar navbar-expand-lg bg-white p-0">
+                <div class="container-fluid">
+                    <i class="fas fa-bars font-bars" id="sidebarCollapse"></i>
+                    <div class="col-lg-6 pt-3">
+                        <form method="post">
+                            <div class="form-group">
                                 <input type="text" class="form-control col-lg-12" placeholder="Search"
-                                    style="border-radius: 50px; background: #F5F6FA; border: 1px solid #F5F6FA">
-                            </form>
+                                    style="border-radius: 50px; background: #F0F0F0; border: 1px solid #F0F0F0">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-dark" href="#">Entrar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">Registro</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <nav id="nav-menu-container">
-                    <div class="col-lg-12">
-                        <ul class="nav-menu">
-                            <li>
-                                <a href="#" class="text-dark" data-toggle="modal" data-target="#login">
-                                    <i class="fas fa-key"></i>
-                                    Entrar
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-dark" data-toggle="modal" data-target=".registro">
-                                    <i class="fas fa-past"></i>
-                                    Cadastrar-se</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </section>
-    <!--================ End header top Area =================-->
+            </nav>
 
-    <!-- Header Navegação -->
-    <header id="header" class="bg-mk">
-        <div class="container box_1170 main-menu">
-            <div class="row align-items-center justify-content-center d-flex">
-                <nav id="nav-menu-container">
-                    <ul class="nav-menu">
-                        <li>
-                            <a href="#">
-                                Nova postagem</a>
-                        </li>
-                        <li><a href="#">Tendendo</a></li>
-                        <li><a href="#">Search</a></li>
-                        <li><a href="#">Members</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- End Header Navegação -->
+            <!-- End Nav -->
 
-    <!-- Sessão do Forum Tabs -->
-    <div class="main-body section-gap">
-        <div class="container box_1170">
-            <div class="row">
-                <!-- Banner de Forum -->
-                <div class="col-lg-12 p-2">
-                    <div class="text-center pt-4 m-1"
-                        style="background: linear-gradient(87deg, #000000dc 0, #050505da 100%), url(https://cdn.startupi.com.br/wp-content/uploads/2016/12/artigo-bruno-perin.jpg); height: 200px;">
-                        <br>
-                        <h1 class="mt-4 text-white">Bem-vindo ao Linux Foss Angola Forums</h1>
-                    </div>
-                </div>
-                <!-- End Banner de Forum -->
-            </div>
-            <!-- Fórum -->
-            <div class="row mt-4">
-                <div class="col-lg-9 mt-4">
-                    <!-- Table -->
+            <!-- Sessão do Forum Tabs -->
+            <div class="mt--4">
+                <div class="container-fluid box_1170">
                     <div class="row">
-                        <div class="col">
-                            <div class="card shadow">
-                                <div class="card-header border-0">
-                                    <h3 class="mb-0">Card tables</h3>
-                                </div>
-                                <div class="table-responsive">
-                                    <table class="table align-items-center table-flush">
-                                        <thead class="thead-light">
-                                            <tr>
-                                                <th scope="col">Project</th>
-                                                <th scope="col"></th>
-                                                <th scope="col"></th>
-                                                <th scope="col">Users</th>
-                                                <th scope="col">Completion</th>
-                                                <th scope="col"></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div class="media align-items-center">
-                                                        <a href="#" class="avatar rounded-circle mr-3">
-                                                            <img alt="Image placeholder" src="assets/img/9.png">
-                                                        </a>
-                                                        <div class="media-body">
-                                                            <span class="mb-0 text-sm">Vue Paper UI Kit PRO</span>
-                                                        </div>
-                                                    </div>
-                                                </th>
-                                                <td>
-                                                    $2,200 USD
-                                                </td>
-                                                <td>
-                                                    <span class="badge badge-dot mr-4">
-                                                        <i class="bg-success"></i> completed
-                                                    </span>
-                                                </td>
-                                                <td>
-                                                    <div class="avatar-group">
-                                                        <a href="#" class="avatar avatar-sm" data-toggle="tooltip"
-                                                            data-original-title="Ryan Tompson">
-                                                            <img alt="Image placeholder"
-                                                                src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                                class="rounded-circle" title="Jessica Doe">
-                                                        </a>
-                                                        <a href="#" class="avatar avatar-sm" data-toggle="tooltip"
-                                                            data-original-title="Romina Hadid">
-                                                            <img alt="Image placeholder"
-                                                                src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
-                                                                class="rounded-circle" title="Jessica Doe">
-                                                        </a>
-                                                        <a href="#" class="avatar avatar-sm" data-toggle="tooltip"
-                                                            data-original-title="Alexander Smith">
-                                                            <img alt="Image placeholder"
-                                                                src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/cp0/c0.2.60.60a/p60x60/93154204_848102062359199_7697653070376730624_o.jpg?_nc_cat=106&_nc_sid=7206a8&_nc_eui2=AeGSrnP8h8BKVtYXsz8fGr2WaLCU8vCgVw5osJTy8KBXDlwHJe_glqv4OPKNDCq3mPRP2UhKtLvLW_ehXzX_btmr&_nc_ohc=fIqFO7RhoWkAX_LpUg2&_nc_ht=scontent.flad5-1.fna&oh=38f086626459d74ca8190af7ddb5294f&oe=5EF1E02E"
-                                                                class="rounded-circle" title="Jessica Doe">
-                                                        </a>
-                                                        <a href="#" class="avatar avatar-sm" data-toggle="tooltip"
-                                                            data-original-title="Jessica Doe">
-                                                            <img alt="Image placeholder"
-                                                                src="data:image/jpeg;base64,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"
-                                                                class="rounded-circle" title="Jessica Doe">
-                                                        </a>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <div class="d-flex align-items-center">
-                                                        <span class="mr-2">100%</span>
-                                                        <div>
-                                                            <div class="progress">
-                                                                <div class="progress-bar bg-success" role="progressbar"
-                                                                    aria-valuenow="100" aria-valuemin="0"
-                                                                    aria-valuemax="100" style="width: 100%;"></div>
+                        <!-- Banner de Forum -->
+                        <div class="col-lg-12 p-2">
+                            <div class="text-center pt-4 m-1"
+                                style="
+                        border-radius: 10px;
+                        background-size: 100%;
+                        background-position: center;
+                        background-image: linear-gradient(87deg, #ffcf8bda  0, #fa5b73bb  100%), url(https://www.adzuna.com.br/blog/wp-content/uploads/2017/05/pexels-photo.jpg); height: 240px;">
+                                <br>
+                                <h1 class="mt-4 text-white">Bem-vindo ao Linux Foss Angola Forums</h1>
+
+                                <button class="shadow btn mt-4 bg-padrao text-white" data-toggle="modal"
+                                    data-target=".registro">SIGN UP NOW</button>
+                            </div>
+                        </div>
+                        <!-- End Banner de Forum -->
+                    </div>
+                    <!-- Fórum -->
+                    <div class="row mt-4">
+                        <div class="col-lg-9 mt-4">
+                            <!-- Table -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow">
+                                        <div class="card-header border-0">
+                                            <h3 class="mb-0">Card tables</h3>
+                                        </div>
+                                        <div class="table-responsive">
+                                            <table class="table align-items-center table-flush">
+                                                <thead class="thead-light">
+                                                    <tr>
+                                                        <th scope="col">Project</th>
+                                                        <th scope="col"></th>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Users</th>
+                                                        <th scope="col">Completion</th>
+                                                        <th scope="col"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <div class="media align-items-center">
+                                                                <a href="#" class="avatar rounded-circle mr-3">
+                                                                    <img alt="Image placeholder" src="assets/img/9.png">
+                                                                </a>
+                                                                <div class="media-body">
+                                                                    <span class="mb-0 text-sm">Vue Paper UI Kit
+                                                                        PRO</span>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                                <!-- Acções -->
-                                                <td class="text-right">
-                                                    <div class="dropdown">
-                                                        <a class="btn btn-sm btn-icon-only text-light" href="#"
-                                                            role="button" data-toggle="dropdown" aria-haspopup="true"
-                                                            aria-expanded="false">
-                                                            <i class="fas fa-ellipsis-v"></i>
+                                                        </th>
+                                                        <td>
+                                                            $2,200 USD
+                                                        </td>
+                                                        <td>
+                                                            <span class="badge badge-dot mr-4">
+                                                                <i class="bg-success"></i> completed
+                                                            </span>
+                                                        </td>
+                                                        <td>
+                                                            <div class="avatar-group">
+                                                                <a href="#" class="avatar avatar-sm"
+                                                                    data-toggle="tooltip"
+                                                                    data-original-title="Ryan Tompson">
+                                                                    <img alt="Image placeholder"
+                                                                        src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                                        class="rounded-circle" title="Jessica Doe">
+                                                                </a>
+                                                                <a href="#" class="avatar avatar-sm"
+                                                                    data-toggle="tooltip"
+                                                                    data-original-title="Romina Hadid">
+                                                                    <img alt="Image placeholder"
+                                                                        src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                                        class="rounded-circle" title="Jessica Doe">
+                                                                </a>
+                                                                <a href="#" class="avatar avatar-sm"
+                                                                    data-toggle="tooltip"
+                                                                    data-original-title="Alexander Smith">
+                                                                    <img alt="Image placeholder"
+                                                                        src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/cp0/c0.2.60.60a/p60x60/93154204_848102062359199_7697653070376730624_o.jpg?_nc_cat=106&_nc_sid=7206a8&_nc_eui2=AeGSrnP8h8BKVtYXsz8fGr2WaLCU8vCgVw5osJTy8KBXDlwHJe_glqv4OPKNDCq3mPRP2UhKtLvLW_ehXzX_btmr&_nc_ohc=fIqFO7RhoWkAX_LpUg2&_nc_ht=scontent.flad5-1.fna&oh=38f086626459d74ca8190af7ddb5294f&oe=5EF1E02E"
+                                                                        class="rounded-circle" title="Jessica Doe">
+                                                                </a>
+                                                                <a href="#" class="avatar avatar-sm"
+                                                                    data-toggle="tooltip"
+                                                                    data-original-title="Jessica Doe">
+                                                                    <img alt="Image placeholder"
+                                                                        src="data:image/jpeg;base64,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"
+                                                                        class="rounded-circle" title="Jessica Doe">
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="d-flex align-items-center">
+                                                                <span class="mr-2">100%</span>
+                                                                <div>
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg-success"
+                                                                            role="progressbar" aria-valuenow="100"
+                                                                            aria-valuemin="0" aria-valuemax="100"
+                                                                            style="width: 100%;"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <!-- Acções -->
+                                                        <td class="text-right">
+                                                            <div class="dropdown">
+                                                                <a class="btn btn-sm btn-icon-only text-light" href="#"
+                                                                    role="button" data-toggle="dropdown"
+                                                                    aria-haspopup="true" aria-expanded="false">
+                                                                    <i class="fas fa-ellipsis-v"></i>
+                                                                </a>
+                                                                <div
+                                                                    class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                                                    <a class="dropdown-item" href="#">Action</a>
+                                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                                    <a class="dropdown-item" href="#">Something else
+                                                                        here</a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <!-- Acções -->
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <!-- Paginação -->
+                                        <div class="card-footer py-4">
+                                            <nav aria-label="...">
+                                                <ul class="pagination justify-content-end mb-0">
+                                                    <li class="page-item disabled">
+                                                        <a class="page-link" href="#" tabindex="-1">
+                                                            <i class="fas fa-angle-left"></i>
+                                                            <span class="sr-only">Previous</span>
                                                         </a>
-                                                        <div
-                                                            class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                            <a class="dropdown-item" href="#">Action</a>
-                                                            <a class="dropdown-item" href="#">Another action</a>
-                                                            <a class="dropdown-item" href="#">Something else
-                                                                here</a>
-                                                        </div>
+                                                    </li>
+                                                    <li class="page-item active">
+                                                        <a class="page-link" href="#">1</a>
+                                                    </li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#">2 <span
+                                                                class="sr-only">(current)</span></a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link" href="#">
+                                                            <i class="fas fa-angle-right"></i>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <!-- Paginação -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Dark table -->
+
+                        </div>
+
+                        <div class="col-lg-3">
+                            <!-- Sessão de Last Post -->
+                            <div class="mt-4">
+                                <div class="card ">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <h5><i class="fas fa-comment-alt"></i> Last Post</h5>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
                                                     </div>
-                                                </td>
-                                                <!-- Acções -->
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                                                </div>
 
-                                <!-- Paginação -->
-                                <div class="card-footer py-4">
-                                    <nav aria-label="...">
-                                        <ul class="pagination justify-content-end mb-0">
-                                            <li class="page-item disabled">
-                                                <a class="page-link" href="#" tabindex="-1">
-                                                    <i class="fas fa-angle-left"></i>
-                                                    <span class="sr-only">Previous</span>
-                                                </a>
-                                            </li>
-                                            <li class="page-item active">
-                                                <a class="page-link" href="#">1</a>
-                                            </li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">2 <span
-                                                        class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                            <li class="page-item">
-                                                <a class="page-link" href="#">
-                                                    <i class="fas fa-angle-right"></i>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <!-- Paginação -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Dark table -->
-
-                </div>
-
-                <div class="col-lg-3">
-                    <!-- Sessão de Last Post -->
-                    <div class="mt-4">
-                        <div class="card ">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h5><i class="fas fa-comment-alt"></i> Last Post</h5>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-primary">Site Feedback</span>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
 
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-primary">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-padrao">Site Feedback</span>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
 
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-padrao">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-danger">Site Feedback</span>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
 
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-danger">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-secondary">Site Feedback</span>
+                                                </div>
                                             </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-secondary">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Sessão de Last Post -->
-
-                    <!-- Sessão de Trending -->
-                    <div class="mt-4">
-                        <div class="card ">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h5><i class="fas fa-comment-alt"></i> Trending Now</h5>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-default">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class=" list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia
-                                                antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-primary">Site
-                                                Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-danger">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-secondary">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-2">
-                                            <div class="avatar-user">
-                                                <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
-                                                    alt="">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-10">
-                                            <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
-                                                começar!
-                                                Site Feedback</p>
-                                            <span class="form-legend bg-padrao">Site Feedback</span>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Trending  -->
-
-                    <!-- Sessão Membros -->
-                    <div class="mt-4">
-                        <div class="card ">
-                            <div class="list-group list-group-flush">
-                                <div class="list-group-item">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <h5><i class="fas fa-users"></i> Members</h5>
-                                            <div class="mt-4">
-                                                <a href="#">Listagem de nome de todos
-                                                    usuários</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="bg-mk-1 p-2">
-                                    <span>Total: 267 (members: 30, guests: 237)</span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+                            <!-- End Sessão de Last Post -->
+
+                            <!-- Sessão de Trending -->
+                            <div class="mt-4">
+                                <div class="card ">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <h5><i class="fas fa-comment-alt"></i> Trending Now</h5>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-default">Site Feedback</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia
+                                                        antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-primary">Site
+                                                        Feedback</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-danger">Site Feedback</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-secondary">Site Feedback</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <div class="avatar-user">
+                                                        <img src="https://www.euroshop-tradefair.com/cache/pica/6/8/3/2/5/1/96381541499419/Moebius-Portrait-600x700px.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-10">
+                                                    <p>[REGRAS] Bem-vindo(a) ao Diolinux Plus! Leia antes de
+                                                        começar!
+                                                        Site Feedback</p>
+                                                    <span class="form-legend bg-padrao">Site Feedback</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Trending  -->
+
+                            <!-- Sessão Membros -->
+                            <div class="mt-4">
+                                <div class="card ">
+                                    <div class="list-group list-group-flush">
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <h5><i class="fas fa-users"></i> Members</h5>
+                                                    <div class="mt-4">
+                                                        <a href="#">Listagem de nome de todos
+                                                            usuários</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="bg-mk-1 p-2">
+                                            <span>Total: 267 (members: 30, guests: 237)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Membros -->
                         </div>
                     </div>
-                    <!-- End Membros -->
+                    <!-- End fórum -->
                 </div>
             </div>
-            <!-- End fórum -->
+            <!-- End Sessão do Forum -->
+
         </div>
     </div>
-    <!-- End Sessão do Forum -->
-
-
 
 
 
@@ -735,6 +750,8 @@
     <script src="assets/js/mail-script.js"></script>
     <script src="assets/js/main.js"></script>
 
+
+
     <script>
         $(document).on('show.bs.modal', '.modal', function () {
             var zIndex = 1040 + (10 * $('.modal:visible').length);
@@ -742,6 +759,11 @@
             setTimeout(function () {
                 $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
             }, 0);
+        });
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
         });
     </script>
 </body>
