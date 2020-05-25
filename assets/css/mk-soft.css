@@ -17,7 +17,7 @@ html {
     background-image: linear-gradient(87deg, #f57f17 0, #ff9100e0 100%) , url(../img/ilustracao/fundo.gif) !important;
     background-size: 100%  !important;
     background-position: center;
-    border-radius: 0px !important;
+    border-radius: 0px;
     color: white !important;
 }
 .mk-card img {
@@ -54,6 +54,7 @@ html {
 /* Paginação  */
 .page-item.active .page-link, .blog-pagination .page-link:hover, .single-footer-widget .sub-btn  {
     background:  linear-gradient(87deg, #f57f17 0, #ff9100e0 100%)  !important;
+    border: none !important;
 }
 /* Footer */
 .footer-area {
@@ -167,7 +168,7 @@ html {
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: 100%;
-    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://i0.wp.com/sempreupdate.com.br/wp-content/uploads/2020/03/razoes-pelas-quais-voce-deve-escolher-o-debian-linux.jpg?fit=1280%2C720&ssl=1) !important;
+    background-image:  linear-gradient(87deg, #000000c0 0, #050505da 100%) , url(https://i.ytimg.com/vi/9_us7irITLU/maxresdefault.jpg) !important;
 
 }
 .sobre-banner-linux {
@@ -433,6 +434,20 @@ select ,
 .forum-margem {
     margin-right: 6px !important;
 }
+.card-forum {
+    border: none !important;
+}
+.list-group-flush li{
+    border: none !important;
+}
+
+.card-forum .list-group-item:nth-child(2n+1) {
+    background: #F5F6FA  !important;
+}
+.card-box-title  {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 @media (max-width: 700px) {
     .modal-login {
         display: none !important;
@@ -656,23 +671,19 @@ select ,
     background-color: #fff
 }
 .img-categoria img{
-    width: 120px !important;
-    height: 120px !important;
-    max-width: 80px !important;
-    max-height: 80px !important;
-    padding: 10px;
-
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
 }
 .img-categoria  {
-    border-radius: 50%;
     margin: 0px auto !important;
-    text-align: center !important;
+    text-align: left !important;
 }
 
 /* Avatar */
 .avatar-user img {
-    width: 55px;
-    height: 55px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
 }
 .avatar-user-saudacoes a i {
@@ -776,217 +787,21 @@ select ,
      font-size: 0.80rem;
 }
 
+
+
+
  /* Tabela Diolinux */
- .category-list, .topic-list, .latest-topic-list {
+ .table {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
     background-color: #fff;
-}
-.topic-list {
-    margin: 0 0 10px;
-}
-.topic-list {
-    width: 100% !important;
     border-collapse: collapse;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    border-spacing: 2px;
-    border-color: grey;
-}
-thead {
-    display: table-header-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-tr {
-    border-bottom: 1px solid #f3f2f2;
-}
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-.topic-list th:first-of-type, .topic-list td:first-of-type {
-    padding-left: 10px;
-}
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-.topic-list th, .topic-list td {
-    line-height: 1.4;
-    text-align: left;
-    vertical-align: middle;
-}
-table th {
-    font-weight: normal;
-    color: gray;
-    text-align: left;
-    padding: 0.5em;
-}
-td, th {
-    padding: 0;
-}
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: -internal-center;
-}
-.topic-list .posters {
-    width: 146px;
-}
-
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-topic-list th, .topic-list td {
-    line-height: 1.4;
-    text-align: left;
-    vertical-align: middle;
-}
-table th {
-    font-weight: normal;
-    color: gray;
-    text-align: left;
-    padding: 0.5em;
-}
-.topic-list .posts {
-    width: 65px;
-}
-.topic-list .num {
-    text-align: center;
-}
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-.topic-list th, .topic-list td {
-    line-height: 1.4;
-    text-align: left;
-    vertical-align: middle;
-}
-.sortable {
-    white-space: nowrap;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-table th {
-    font-weight: normal;
-    color: gray;
-    text-align: left;
-    padding: 0.5em;
-}
-td, th {
-    padding: 0;
-}
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-    text-align: -internal-center;
-}
-.topic-list {
-    width: 100%;
-    border-collapse: collapse;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-.topic-list .views {
-    width: 65px;
-}
-.topic-list .num {
-    text-align: center;
-}
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-.topic-list th, .topic-list td {
-    line-height: 1.4;
-    text-align: left;
-    vertical-align: middle;
-}
-.sortable {
-    white-space: nowrap;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-}
-.topic-list th:last-of-type, .topic-list td:last-of-type {
-    padding-right: 10px;
-}
-.topic-list .activity {
-    width: 60px;
-}
-.topic-list .num {
-    text-align: center;
-}
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-.topic-list th, .topic-list td {
-    line-height: 1.4;
-    text-align: left;
-    vertical-align: middle;
-}
-table th {
-    font-weight: normal;
-    color: gray;
-    text-align: left;
-    padding: 0.5em;
-}
-.topic-list th:first-of-type, .topic-list td:first-of-type {
-    padding-left: 10px;
-}
-.topic-list-item td:first-child, .topic-post {
-    border-left: 1px solid transparent;
-}
-.topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
-    font-size: 1.1487em;
-}
-.topic-list th, .topic-list td {
-    padding: 12px 5px;
-}
-
-#create-topic.btn-default {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 4px rgba(0,0,0,0.14), 0 4px 8px rgba(0,0,0,0.28);
-    transition: right 0.5s, bottom 0.5s, border-radius 0.5s, text-indent 0.2s, visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s, background-color 2s, transform 0.5s;
-    padding: 0;
-    margin: 0;
-    width: 53px;
-    height: 53px;
-    border-radius: 40px;
-    position: fixed;
-    bottom: 30px;
-    right: 50px;
-    z-index: 399;
-    background-color: #0094ff;
-    color: #fff;
-    white-space: nowrap;
-    overflow: hidden;
-}
-.list-controls .btn {
-    float: right;
-    margin-left: 8px;
-    margin-bottom: 9px;
-    font-size: 1.1487em;
-    font-weight: normal;
-}
-
+ }
+ .table tr {
+    border-bottom: 1px solid #e6e6e6;
+ }
 /* card-box */
 .card-box {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12) !important;
     background-color: #fff !important;
 }
+
