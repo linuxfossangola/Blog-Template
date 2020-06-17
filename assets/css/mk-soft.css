@@ -842,6 +842,11 @@ a:focus {
 .forumActive {
     background: #EFF3FF;
 }
+.searchInputNav {
+    background:#EFF3FF !important;
+    border-radius: 50px !important; 
+    border: 1px solid #F0F0F0 !important;
+}
 
 /* ---------------------------------------------------
 SIDEBAR STYLE
