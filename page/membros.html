@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="../assets/img/icons/logo.png">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Linux FOSS Angola</title>
+
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="../assets/css/linearicons.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/nice-select.css">
+    <link rel="stylesheet" href="../assets/css/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+    <!-- My Stylid -->
+    <link rel="stylesheet" href="../assets/css/mk-soft.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-select.css">
+
+
+    <!-- Argon Table -->
+    <link rel="stylesheet" href="../assets/css/table.css">
+
+    <style>
+        .nav-pills .nav-link {
+            background: transparent;
+            box-shadow: none !important;
+        }
+    </style>
+</head>
+
+<body class="siber-forum">
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header bg-white p-3" style="padding-top: 13px !important;">
+                <img src="../assets/img/icons/logo.png" style="width: 35%; text-align: center; margin: 0px auto">
+            </div>
+
+            <ul class="list-unstyled components bg-white fixed">
+                <li>
+                    <a href="../forum.html">Forum</a>
+                </li>
+                <li>
+                    <a href="postagem.html">Nova Postagem</a>
+                </li>
+                <li>
+                    <a href="tendendo.html">Tendendo</a>
+                </li>
+                <li>
+                    <a href="pesquisaForums.html">Pesquisa Fóruns</a>
+                </li>
+                <li>
+                    <a href="membros.html">Membros</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Sidebar  -->
+
+        <!-- Conteúdo -->
+        <!-- Page Content  -->
+        <div id="content">
+
+            <!-- Nav -->
+            <nav class="navbar navbar-expand-lg bg-white p-0">
+                <div class="container-fluid">
+                    <i class="fas fa-bars font-bars" id="sidebarCollapse"></i>
+                    <div class="col-lg-6 pt-3">
+                        <form method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control col-lg-12" placeholder="Search"
+                                    style="border-radius: 50px; background: #F0F0F0; border: 1px solid #F0F0F0">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="nav navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-dark" href="#" data-toggle="modal"
+                                        data-target="#login">Entrar</a>
+                                </li>
+                                <li class="nav-item" data-toggle="modal" data-target=".registro">
+                                    <a class="nav-link text-dark" href="#">Registro</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- End Nav -->
+
+            <!-- Sessão do Forum Tabs -->
+            <div class="mt--4 mb-4">
+                <div class="container-fluid box_1170">
+                    <!-- Fórum -->
+                    <div class="row mt-4">
+                        <div class="col-lg-12 mb-4 mt-2">
+                            <h3>Membros</h3>
+                        </div>
+
+                        <!-- Members -->
+                        <div class="col-lg-3">
+                            <!-- <div class="col-lg-12 shadow p-3">
+                                <div class="">
+                                    <h5><i class="fas fa-users"></i> Membros</h5>
+                                </div>
+                            </div> -->
+                            <div class="col-lg-12 shadow p-3">
+                                <div class="">
+                                    <h5 class="mb-4"><i class="fas fa-chart-pie"></i> Forums Statistics</h5>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-8">
+                                            <span>Threads:</span>
+                                        </div>
+                                        <div class="col-lg-4 text-right">
+                                            <span>635</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-8">
+                                            <span>Messages:</span>
+                                        </div>
+                                        <div class="col-lg-4 text-right">
+                                            <span>2, 0635</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-8">
+                                            <span>Unanswered questions:</span>
+                                        </div>
+                                        <div class="col-lg-4 text-right">
+                                            <span>32</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-8">
+                                            <span>Members:</span>
+                                        </div>
+                                        <div class="col-lg-4 text-right">
+                                            <span>1, 295</span>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-lg-8">
+                                            <span>Latest member:</span>
+                                        </div>
+                                        <div class="col-lg-4 text-right">
+                                            <span>zombie715</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 shadow p-3 mt-4">
+                                <div class="">
+                                    <h5><i class="fas fa-search"></i> Find Member</h5>
+                                    <form action="" class="mt-4">
+                                        <div class="form-group">
+                                            <input type="text" class="shadow form-control form-control-sm  mt-1 p-3"
+                                                placeholder="Name"
+                                                style="background: #EFF3FF;  
+                                                border: none;   
+                                                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12) !important;">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 shadow p-3 mt-4">
+                                <div class="">
+                                    <h5><i class="fas fa-users"></i> Newest members</h5>
+                                    <div class="row mt-4">
+                                        <div class="col-lg-2">
+                                            <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Members -->
+                        <div class="col-lg-9">
+                            <div class="col-lg-12 shadow p-4">
+                                <div class="row mt--4">
+                                    <div class="col-lg-4 mt-4">
+                                        <h5 class="mb-3">Most messages</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most answers</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                    <div class="col-lg-4 mt-4">
+                                        <h5>Most Q&A points</h5>
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- List -->
+                                        <div class="row mt-3">
+                                            <div class="col-lg-2">
+                                                <img src="https://scontent.flad5-1.fna.fbcdn.net/v/t1.0-1/p100x100/67090000_2389210011198477_182090704791535616_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_eui2=AeGAoOViA5nCk2MWpDwOFLOMJ_9gGLHvCiQn_2AYse8KJPyw0e23jgvoEpys-Li-9xUFhVdhaZOrDb771dqoFxvx&_nc_ohc=zacxfwOvdKoAX_Gkajl&_nc_ht=scontent.flad5-1.fna&_nc_tp=6&oh=bbe8612428b4056d3f411e10aa66e7ab&oe=5EF13A94"
+                                                    alt="" style="width: 30px; height:30px; border-radius: 50%;">
+                                            </div>
+                                            <div class="col-lg-8">
+                                                <span class="text-primary">Arjun Chandran</span>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <span>14</span>
+                                            </div>
+                                        </div>
+                                        <!-- End List -->
+                                        <!-- Button -->
+                                        <a class="btn bg-cinza text-center col-lg-12 mt-3 w-100">See more...</a>
+                                        <!-- End Button -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End fórum -->
+                </div>
+            </div>
+            <!-- End Sessão do Forum -->
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Modal de Registo -->
+    <div class="modal fade registro" id="registro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body col-lg-4 modal-login">
+                        <div class="col-lg-12 text-center mt-4">
+                            <div class="mt-4 register-descricao">
+                                <img src="../assets/img/icons/logo.png" class="col-lg-8 text-center" />
+                                <h4 class="text-white mt-2">Cadastra-se com</h4>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="protfolio-widget">
+                                    <ul class="social-links col-lg-12 text-center">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-body col-lg-8">
+                        <form class="form-area " id="myForm">
+                            <div class="row">
+                                <div class="col-lg-12 ">
+                                    <h3 class="text-center mt-4 mb-4">Sign in to your account</h3>
+                                    <hr>
+                                    <div class="row forum-margem">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="recipient-name"
+                                                    placeholder="Nome do usuário">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control col-lg-12" id="recipient-name"
+                                                    placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="password" class="form-control" id="recipient-name"
+                                                    placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <input type="date" class="form-control" id="recipient-name">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group m-1">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Eu concordo com os <a
+                                                    href="#">termos</a> e a <a href="#">política de
+                                                    privacidade</a></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-7 text-center m-auto">
+                                        <div class="row mt-4">
+                                            <div class="form-group col-lg-6">
+                                                <input type="submit" class="form-control btn-primary btn-padrao"
+                                                    id="recipient-name" value="Cadastrar-se">
+                                            </div>
+                                            <div class="form-group col-lg-6">
+                                                <a href="#login" data-toggle="modal"
+                                                    class="form-control btn-primary btn-entrar">Entrar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal de Registo -->
+
+    <!-- Modal Login -->
+    <div class="modal fade form_login" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="modal-body col-lg-6 modal-login">
+                        <div class="col-lg-12 text-center mt-4 login-descricao">
+                            <img src="../assets/img/icons/logo.png" class="col-lg-8 text-center" />
+
+                            <div class="col-lg-12 mt--3">
+                                <h4 class="text-white mt-2">Faça o seu login com </h4>
+                                <div class="protfolio-widget mt--4">
+                                    <ul class="social-links col-lg-12 text-center">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body col-lg-6 col-sm-12">
+                        <form class=" form-area " id=" myForm">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-12">
+                                        <h3 class="text-center mb-4">Entrar</h3>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control col-lg-12" id="recipient-name"
+                                                placeholder="e-mail ou nome de usuário">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" id="recipient-name"
+                                                placeholder="Senha">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    Remember Me
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 mt--2">
+                                        <div class="form-group">
+                                            <input type="submit" class="form-control btn-primary btn-padrao mt--2"
+                                                id="recipient-name" value="Entrar">
+                                            <!-- <a href="user_home.html"
+                                                class="form-control btn-primary btn-padrao text-center mt-4">Entrar</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 text-center mt--4">
+                                        <span class="mt--2">ou</span>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <a href="#" class="form-control btn-primary btn-entrar text-center"
+                                                data-toggle="modal" data-target=".registro"
+                                                id="modal_cadastro">Cadastrar</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 mt-2 text-center">
+                                        <a href="#">Forgot Password ? </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal de Login -->
+
+
+    <!-- Footer -->
+    <footer class="footer-area section-gap">
+        <div class="container box_1170">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">Sobre nós</h6>
+                        <p>Linux FOSS Angola, é uma comunidade Angola virada a tecnologia.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6 class="footer_title">Newsletter</h6>
+                        <p>Mantenha-se atualizado com as nossas últimas publicações</p>
+                        <div id="mc_embed_signup">
+                            <form target="_blank"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="subscribe_form relative">
+                                <div class="input-group d-flex flex-row">
+                                    <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Email Address '" required="" type="email">
+                                    <button class="btn sub-btn bg-padrao"><span
+                                            class="lnr lnr-arrow-right"></span></button>
+                                </div>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget instafeed">
+                        <h6 class="footer_title">Doação</h6>
+                        <ul class="list instafeed d-flex flex-wrap">
+                            <div class="col-lg-12 mk-card p-4">
+                                <h4 class="text-white">Ajude-nos a manter o site</h4>
+                                <h4 class="text-white">Faça a sua doação</h4>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="single-footer-widget f_social_wd">
+                        <h6 class="footer_title">Segue-nos</h6>
+                        <p>Sejamos sociais</p>
+                        <div class="f_social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                <p class="col-lg-12 footer-text text-center">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> Todos os direitos reservados Linux
+                    foss
+                    Angola</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="../assets/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="../assets/js/easing.min.js"></script>
+    <script src="../assets/js/hoverIntent.js"></script>
+    <script src="../assets/js/superfish.min.js"></script>
+    <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/jquery.tabs.min.js"></script>
+    <script src="../assets/js/jquery.nice-select.min.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/mail-script.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+        $(document).on('show.bs.modal', '.modal', function () {
+            var zIndex = 1040 + (10 * $('.modal:visible').length);
+            $(this).css('z-index', zIndex);
+            setTimeout(function () {
+                $('.modal-backdrop').not('.modal-stack').css('z-index', zIndex - 1).addClass('modal-stack');
+            }, 0);
+        });
+
+    </script>
+</body>
+
+</html>
